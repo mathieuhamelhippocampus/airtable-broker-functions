@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Broking Broker — Tâches du jour</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy: #1a3a6b;
+    --green: #1a5c3a;
+    --amber: #8b5a00;
+    --ink: #1c1f26;
+    --paper: #ffffff;
+    --line: #e4e2dc;
+    --muted: #6b6f78;
+    --bg: #faf9f6;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Figtree', sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  header {
+    background: var(--paper);
+    border-bottom: 1px solid var(--line);
+    padding: 28px 32px 22px;
+  }
+
+  header .eyebrow {
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 6px;
+  }
+
+  header h1 {
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+    font-size: 32px;
+    margin: 0 0 4px;
+    color: var(--navy);
+  }
+
+  header .meta {
+    font-size: 13px;
+    color: var(--muted);
+  }
+
+  main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 32px 24px 80px;
+  }
+
+  .summary {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 28px;
+    flex-wrap: wrap;
+  }
+
+  .summary .stat {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 14px 18px;
+    flex: 1;
+    min-width: 140px;
+  }
+
+  .summary .stat .num {
+    font-family: 'EB Garamond', serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--navy);
+    line-height: 1;
+  }
+
+  .summary .stat .label {
+    font-size: 12px;
+    color: var(--muted);
+    margin-top: 4px;
+  }
+
+  .client-card {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    margin-bottom: 14px;
+    overflow: hidden;
+  }
+
+  .client-card .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 18px;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .client-card .name {
+    font-family: 'EB Garamond', serif;
+    font-size: 19px;
+    font-weight: 600;
+  }
+
+  .client-card .count {
+    font-size: 12px;
+    color: var(--muted);
+  }
+
+  .reasons {
+    padding: 4px 18px 14px;
+  }
+
+  .reason {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    padding: 8px 0;
+    border-top: 1px solid var(--line);
+    font-size: 14px;
+  }
+
+  .reason:first-child { border-top: none; }
+
+  .tag {
+    font-size: 10px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 3px 7px;
+    border-radius: 3px;
+    flex-shrink: 0;
+    white-space: nowrap;
+  }
+
+  .tag.retard { background: rgba(139,90,0,0.12); color: var(--amber); }
+  .tag.event { background: rgba(26,58,107,0.1); color: var(--navy); }
+
+  .reason .detail { color: var(--ink); }
+  .reason .detail .date { color: var(--muted); font-size: 13px; }
+
+  .empty {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--muted);
+  }
+
+  .loading {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--muted);
+    font-style: italic;
+  }
+
+  .error-box {
+    background: #fdf1ee;
+    border: 1px solid #e3b9a8;
+    color: #7a3420;
+    padding: 14px 18px;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+
+  @media (max-width: 600px) {
+    header { padding: 20px; }
+    header h1 { font-size: 26px; }
+    main { padding: 20px 14px 60px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="eyebrow">Broking Broker · Kepler Cheuvreux</div>
+  <h1>Qui appeler aujourd'hui</h1>
+  <div class="meta" id="generated-at">Chargement…</div>
+</header>
+
+<main>
+  <div class="summary" id="summary" style="display:none;">
+    <div class="stat"><div class="num" id="stat-clients">–</div><div class="label">Clients à contacter</div></div>
+    <div class="stat"><div class="num" id="stat-events">–</div><div class="label">Events analysés</div></div>
+    <div class="stat"><div class="num" id="stat-total">–</div><div class="label">Clients vérifiés</div></div>
+  </div>
+
+  <div id="content" class="loading">Récupération des données Airtable…</div>
+</main>
+
+<script>
+const FUNCTION_URL = "/.netlify/functions/get-daily-tasks";
+
+function formatDate(iso) {
+  if (!iso) return "";
+  const d = new Date(iso);
+  if (isNaN(d)) return iso;
+  return d.toLocaleDateString('fr-FR', { day: 'numeric', month: 'short', year: 'numeric' });
+}
+
+function reasonHTML(r) {
+  if (r.type === "retard") {
+    return `
+      <div class="reason">
+        <span class="tag retard">Retard</span>
+        <span class="detail">En retard de <strong>${r.retard}</strong> appel(s) sur son rythme annuel
+          ${r.callsRemaining !== null ? `<span class="date">· ${r.callsRemaining} appel(s) restant(s) au quota</span>` : ""}
+        </span>
+      </div>`;
+  }
+  return `
+    <div class="reason">
+      <span class="tag event">Event</span>
+      <span class="detail">Éligible pour <strong>${r.eventName}</strong>
+        ${r.eventDate ? `<span class="date">· ${formatDate(r.eventDate)}</span>` : ""}
+        <span class="date">· ${r.eventType || ""}</span>
+      </span>
+    </div>`;
+}
+
+async function load() {
+  try {
+    const res = await fetch(FUNCTION_URL);
+    const data = await res.json();
+
+    if (!res.ok || data.error) {
+      document.getElementById("content").innerHTML =
+        `<div class="error-box">Erreur : ${data.error || "réponse invalide du serveur"}</div>`;
+      document.getElementById("generated-at").textContent = "Erreur de chargement";
+      return;
+    }
+
+    document.getElementById("generated-at").textContent =
+      "Généré le " + new Date(data.generatedAt).toLocaleString('fr-FR');
+
+    document.getElementById("stat-clients").textContent = data.totalClientsToCall;
+    document.getElementById("stat-events").textContent = data.totalEventsChecked;
+    document.getElementById("stat-total").textContent = data.totalClientsChecked;
+    document.getElementById("summary").style.display = "flex";
+
+    if (data.tasks.length === 0) {
+      document.getElementById("content").innerHTML =
+        `<div class="empty">Aucun client à contacter aujourd'hui.</div>`;
+      return;
+    }
+
+    const html = data.tasks.map(task => `
+      <div class="client-card">
+        <div class="head">
+          <div class="name">${task.clientName}</div>
+          <div class="count">${task.reasons.length} raison(s)</div>
+        </div>
+        <div class="reasons">
+          ${task.reasons.map(reasonHTML).join("")}
+        </div>
+      </div>
+    `).join("");
+
+    document.getElementById("content").innerHTML = html;
+  } catch (err) {
+    document.getElementById("content").innerHTML =
+      `<div class="error-box">Erreur réseau : ${err.message}</div>`;
+  }
+}
+
+load();
+</script>
+
+</body>
+</html>
