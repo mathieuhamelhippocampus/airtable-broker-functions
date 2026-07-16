@@ -90,9 +90,9 @@ export default async (req, context) => {
     // tasksByClient: clientId -> { clientName, reasons: [...] }
     const tasksByClient = new Map();
 
-    function addReason(clientId, clientName, reason) {
+    function addReason(clientId, clientName, reason, budget) {
       if (!tasksByClient.has(clientId)) {
-        tasksByClient.set(clientId, { clientName, reasons: [] });
+        tasksByClient.set(clientId, { clientName, budget: budget || 0, reasons: [] });
       }
       tasksByClient.get(clientId).reasons.push(reason);
     }
@@ -111,6 +111,7 @@ export default async (req, context) => {
         const clientZones = cf["Geographic Universe"];
         const clientSecteurs = cf["Sectors / Themes Followed"];
         const callsRemaining = cf["Analyst Calls Remaining"];
+        const budget = cf["Annual Research Budget (KEUR)"] || 0;
 
         const zm = zoneMatch(eventPays, clientZones);
         const sm = secteurMatch(eventSecteurs, clientSecteurs);
@@ -125,7 +126,7 @@ export default async (req, context) => {
           eventName,
           eventDate,
           eventType,
-        });
+        }, budget);
       }
     }
 
@@ -133,23 +134,28 @@ export default async (req, context) => {
     for (const cl of clientRecords) {
       const cf = cl.fields || {};
       const retard = cf["Retard sur rythme"];
+      const budget = cf["Annual Research Budget (KEUR)"] || 0;
       if (typeof retard === "number" && retard > 0) {
         addReason(cl.id, firstName(cf["Management Company"]), {
           type: "retard",
           retard,
           callsRemaining: cf["Analyst Calls Remaining"] ?? null,
-        });
+        }, budget);
       }
     }
 
     const tasks = Array.from(tasksByClient.entries()).map(([clientId, data]) => ({
       clientId,
       clientName: data.clientName,
+      budget: data.budget || 0,
       reasons: data.reasons,
     }));
 
-    // Tri : clients avec le plus de raisons / le plus de retard en premier
+    // Tri : clients payants (budget > 0) en premier, puis retard, puis nb de raisons
     tasks.sort((a, b) => {
+      const aPaying = a.budget > 0 ? 1 : 0;
+      const bPaying = b.budget > 0 ? 1 : 0;
+      if (bPaying !== aPaying) return bPaying - aPaying;
       const retardA = a.reasons.find((r) => r.type === "retard")?.retard || 0;
       const retardB = b.reasons.find((r) => r.type === "retard")?.retard || 0;
       if (retardB !== retardA) return retardB - retardA;
