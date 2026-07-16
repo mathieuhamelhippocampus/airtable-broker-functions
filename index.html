@@ -150,6 +150,8 @@
   .reason .detail { color: var(--ink); }
   .reason .detail .date { color: var(--muted); font-size: 13px; }
 
+  .tag.budget { background: rgba(26,92,58,0.12); color: var(--green); }
+
   .empty {
     text-align: center;
     padding: 60px 20px;
@@ -256,7 +258,7 @@ async function load() {
     const html = data.tasks.map(task => `
       <div class="client-card">
         <div class="head">
-          <div class="name">${task.clientName}</div>
+          <div class="name">${task.clientName}${task.budget > 0 ? ` <span class="tag budget" style="margin-left:8px;">Budget ${task.budget}K€</span>` : ""}</div>
           <div class="count">${task.reasons.length} raison(s)</div>
         </div>
         <div class="reasons">
