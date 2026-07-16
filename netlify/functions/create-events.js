@@ -56,7 +56,7 @@ async function batchCreate(tableName, recordsPayload) {
         Authorization: `Bearer ${AIRTABLE_TOKEN_WRITE}`,
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ records: chunk }),
+      body: JSON.stringify({ records: chunk, typecast: true }),
     });
     if (!res.ok) throw new Error(`Airtable create error (${res.status}): ${await res.text()}`);
     const data = await res.json();
