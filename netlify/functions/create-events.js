@@ -15,9 +15,10 @@
 //   - Dédoublonne automatiquement avant toute écriture : un event dont le
 //     couple (Event Name, Date) existe déjà est ignoré, jamais recréé
 //
-// Appel : GET /.netlify/functions/create-events?secret=XXXX&events=<base64(JSON)>
+// Appel : POST /.netlify/functions/create-events
+// Corps JSON : { "secret": "XXXX", "events": [...] }
 //
-// Format JSON attendu : identique à check-new-events.js
+// Format de chaque event dans "events" : identique à check-new-events.js
 // [{"name": "...", "type": "...", "date": "YYYY-MM-DD", "ville": "", "societe": "",
 //   "pays": ["China"], "secteurs": [], "analystes": ["Nom Analyste"]}, ...]
 
@@ -74,30 +75,34 @@ export default async (req, context) => {
       );
     }
 
-    const url = new URL(req.url);
+    if (req.method !== "POST") {
+      return new Response(
+        JSON.stringify({ error: "Utiliser POST avec un corps JSON: { secret, events: [...] }" }),
+        { status: 405, headers: { "Content-Type": "application/json" } }
+      );
+    }
 
-    const secret = url.searchParams.get("secret");
-    if (secret !== CREATE_EVENTS_SECRET) {
+    let body;
+    try {
+      body = await req.json();
+    } catch (e) {
+      return new Response(
+        JSON.stringify({ error: "Corps JSON invalide: " + e.message }),
+        { status: 400, headers: { "Content-Type": "application/json" } }
+      );
+    }
+
+    if (body.secret !== CREATE_EVENTS_SECRET) {
       return new Response(
         JSON.stringify({ error: "Secret invalide ou manquant." }),
         { status: 403, headers: { "Content-Type": "application/json" } }
       );
     }
 
-    const eventsParam = url.searchParams.get("events");
-    if (!eventsParam) {
+    const candidates = body.events;
+    if (!Array.isArray(candidates)) {
       return new Response(
-        JSON.stringify({ error: "Paramètre 'events' requis (JSON encodé en base64)." }),
-        { status: 400, headers: { "Content-Type": "application/json" } }
-      );
-    }
-
-    let candidates;
-    try {
-      candidates = JSON.parse(Buffer.from(eventsParam, "base64").toString("utf-8"));
-    } catch (e) {
-      return new Response(
-        JSON.stringify({ error: "Paramètre 'events' invalide: " + e.message }),
+        JSON.stringify({ error: "'events' doit être un tableau." }),
         { status: 400, headers: { "Content-Type": "application/json" } }
       );
     }
