@@ -43,6 +43,34 @@ function slugify(name) {
 }
 function firstName(v) { return Array.isArray(v) ? (v[0] || "") : (v || ""); }
 
+// Compat entre l'ancien schéma (tsr: string, moat: string) et le nouveau
+// (metrics: [{label, value, sub}], structuralDrivers: [...], competitiveAdvantage: [...]).
+function pickTSR(p) {
+  if (p.tsr) return p.tsr;
+  if (Array.isArray(p.metrics)) {
+    const m = p.metrics.find((x) => x.label === "TSR") || p.metrics.find((x) => x.label === "TP");
+    if (m) return m.sub ? `${m.value} (${m.sub})` : m.value;
+  }
+  return "n/a";
+}
+
+function pickMoatLines(p) {
+  if (p.moat) return [`<strong>Moat —</strong> ${p.moat}`];
+  const lines = [];
+  if (Array.isArray(p.structuralDrivers) && p.structuralDrivers.length) {
+    lines.push(`<strong>Structural drivers —</strong> ${p.structuralDrivers.join(" ")}`);
+  }
+  if (Array.isArray(p.competitiveAdvantage) && p.competitiveAdvantage.length) {
+    lines.push(`<strong>Competitive advantage —</strong> ${p.competitiveAdvantage.join(" ")}`);
+  }
+  if (lines.length === 0) lines.push(`<strong>Moat —</strong> n/a`);
+  return lines;
+}
+
+function pickTSRLine(p) {
+  return `${p.rating}, ${pickTSR(p)}`;
+}
+
 function pickTop3(clientZones, clientSecteurs) {
   const exact = TOP_PICKS_POOL.filter(p => zoneMatch(p.countries, clientZones) && secteurMatch(p.secteurs, clientSecteurs));
   const sectorOnly = TOP_PICKS_POOL.filter(p => !exact.includes(p) && secteurMatch(p.secteurs, clientSecteurs));
@@ -73,11 +101,11 @@ function renderClientHTML(clientName, top3) {
       <div class="card-ticker">${p.name}</div>
       <div class="card-name">${p.ticker}</div>
       <span class="pill pill-blue">${p.rating}</span>
-      <div class="card-tsr">${p.tsr}</div>
+      <div class="card-tsr">${pickTSR(p)}</div>
     </div>
     <div class="card-right">
       <ul class="pts">
-        <li><strong>Moat —</strong> ${p.moat}</li>
+        ${pickMoatLines(p).map((line) => `<li>${line}</li>`).join("")}
         <li><strong>Thesis —</strong> ${p.thesis}</li>
       </ul>
       <div class="card-source">${p.source}</div>
@@ -130,7 +158,7 @@ function renderEML(clientName, contactName, email, top3, pageUrl) {
 
 Based on this week's Macquarie research, here are three ideas matched to your coverage:
 
-${top3.map((p, i) => `${i+1}. ${p.name} (${p.ticker}) — ${p.rating}, ${p.tsr}`).join("\n")}
+${top3.map((p, i) => `${i+1}. ${p.name} (${p.ticker}) — ${pickTSRLine(p)}`).join("\n")}
 
 Full write-up with moat and thesis for each name: ${pageUrl}
 
@@ -149,7 +177,7 @@ function renderMailtoLink(clientName, top3, pageUrl) {
 
 Based on this week's Macquarie research, here are three ideas matched to your coverage:
 
-${top3.map((p, i) => `${i+1}. ${p.name} (${p.ticker}) — ${p.rating}, ${p.tsr}`).join("\n")}
+${top3.map((p, i) => `${i+1}. ${p.name} (${p.ticker}) — ${pickTSRLine(p)}`).join("\n")}
 
 Full write-up with moat and thesis for each name: ${pageUrl}
 
