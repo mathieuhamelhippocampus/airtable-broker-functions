@@ -72,14 +72,23 @@ function pickTSRLine(p) {
 }
 
 function pickTop3(clientZones, clientSecteurs) {
-  const exact = TOP_PICKS_POOL.filter(p => zoneMatch(p.countries, clientZones) && secteurMatch(p.secteurs, clientSecteurs));
-  const sectorOnly = TOP_PICKS_POOL.filter(p => !exact.includes(p) && secteurMatch(p.secteurs, clientSecteurs));
+  const byTsrDesc = (a, b) => (b.tsrValue ?? -Infinity) - (a.tsrValue ?? -Infinity);
+
+  const exact = TOP_PICKS_POOL
+    .filter(p => zoneMatch(p.countries, clientZones) && secteurMatch(p.secteurs, clientSecteurs))
+    .sort(byTsrDesc);
+  const sectorOnly = TOP_PICKS_POOL
+    .filter(p => !exact.includes(p) && secteurMatch(p.secteurs, clientSecteurs))
+    .sort(byTsrDesc);
 
   if (exact.length === 0 && sectorOnly.length === 0) {
     return { top3: [], matched: false };
   }
 
-  const rest = TOP_PICKS_POOL.filter(p => !exact.includes(p) && !sectorOnly.includes(p));
+  const rest = TOP_PICKS_POOL
+    .filter(p => !exact.includes(p) && !sectorOnly.includes(p))
+    .sort(byTsrDesc);
+
   const combined = [...exact, ...sectorOnly, ...rest];
   const seen = new Set();
   const top3 = [];
