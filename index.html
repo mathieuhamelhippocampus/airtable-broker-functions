@@ -198,14 +198,16 @@
     align-items: center;
     padding: 10px 16px;
     border-top: 1px solid var(--line);
-    text-decoration: none;
-    color: var(--ink);
     font-size: 14px;
   }
 
   .picks-list .picks-row:first-child { border-top: none; }
   .picks-list .picks-row:hover { background: var(--bg); }
-  .picks-list .picks-row .count { font-size: 12px; color: var(--muted); }
+  .picks-list .picks-row .count { font-size: 12px; color: var(--muted); margin-right: 12px; }
+
+  .picks-list .picks-actions { display: flex; align-items: center; gap: 14px; flex-shrink: 0; }
+  .picks-list .picks-actions a { color: var(--navy); text-decoration: none; font-size: 13px; }
+  .picks-list .picks-actions a:hover { text-decoration: underline; }
 
   @media (max-width: 600px) {
     header { padding: 20px; }
@@ -231,15 +233,11 @@
 
   <div id="content" class="loading">Récupération des données Airtable…</div>
 
-  <div id="top-picks-section" style="margin-top: 40px;"></div>
-
   <div id="personalized-picks-section" style="margin-top: 40px;"></div>
 </main>
 
 <script>
 const FUNCTION_URL = "/.netlify/functions/get-daily-tasks";
-const TOP_PICKS_URL = "/.netlify/functions/get-top-picks";
-const TOP_PICKS_HTML_URL = "/top3-du-jour-21juillet.html";
 const PERSONALIZED_PICKS_MANIFEST_URL = "/public-picks/manifest.json";
 
 function formatDate(iso) {
@@ -314,57 +312,16 @@ async function load() {
   }
 }
 
-function pickCardHTML(p) {
-  return `
-    <div class="reason" style="flex-direction:column; align-items:stretch; gap:4px;">
-      <div style="display:flex; justify-content:space-between; align-items:baseline;">
-        <span><strong>${p.name}</strong> <span class="date">${p.ticker}</span></span>
-        <span class="tag event">${p.rating}</span>
-      </div>
-      <div class="detail" style="font-size:12.5px;">${p.summary}</div>
-      <div class="date" style="font-size:10.5px;">${p.source}</div>
-    </div>`;
-}
-
-async function loadTopPicks() {
-  try {
-    const res = await fetch(TOP_PICKS_URL);
-    const data = await res.json();
-    if (!res.ok || data.error || !data.clients || data.clients.length === 0) return;
-
-    const html = `
-      <div class="summary" style="margin-bottom:16px;">
-        <div class="stat"><div class="num">${data.totalPicksToday}</div><div class="label">Picks du jour</div></div>
-        <div class="stat"><div class="num">${data.totalClientsMatched}</div><div class="label">Clients matchés</div></div>
-      </div>
-      <h2 style="font-family:'EB Garamond', serif; font-size:22px; color:var(--navy); margin-bottom:14px;">
-        Top 3 du jour — par client
-        <a href="${TOP_PICKS_HTML_URL}" target="_blank" style="font-size:12px; margin-left:12px; color:var(--muted);">Voir la note complète →</a>
-      </h2>
-      ${data.clients.map(c => `
-        <div class="client-card">
-          <div class="head">
-            <div class="name">${c.clientName}</div>
-            <div class="count">${c.picks.length} pick(s) matché(s)</div>
-          </div>
-          <div class="reasons">
-            ${c.picks.map(pickCardHTML).join("")}
-          </div>
-        </div>
-      `).join("")}
-    `;
-    document.getElementById("top-picks-section").innerHTML = html;
-  } catch (err) {
-    // silencieux : la section Top Picks est secondaire, ne bloque pas le dashboard principal
-  }
-}
-
 function picksRowHTML(entry) {
   return `
-    <a class="picks-row" href="/public-picks/${entry.slug}.html" target="_blank" data-name="${entry.clientName.toLowerCase()}">
+    <div class="picks-row" data-name="${entry.clientName.toLowerCase()}">
       <span>${entry.clientName}</span>
-      <span class="count">${entry.pickCount} pick(s) →</span>
-    </a>`;
+      <span class="picks-actions">
+        <span class="count">${entry.pickCount} pick(s)</span>
+        <a href="/public-picks/${entry.slug}.html" target="_blank">Voir →</a>
+        <a href="${entry.mailtoLink}">✉ Email</a>
+      </span>
+    </div>`;
 }
 
 async function loadPersonalizedPicks() {
@@ -398,7 +355,6 @@ async function loadPersonalizedPicks() {
 }
 
 load();
-loadTopPicks();
 loadPersonalizedPicks();
 </script>
 

@@ -136,6 +136,25 @@ Mathieu`;
   return `To: ${to}\nSubject: ${subject}\nContent-Type: text/plain; charset="UTF-8"\n\n${body}\n`;
 }
 
+// Lien mailto public — pas d'adresse destinataire (rien de confidentiel), l'utilisateur
+// choisit/vérifie le destinataire dans son client mail avant envoi.
+function renderMailtoLink(clientName, top3, pageUrl) {
+  const subject = `Top 3 ideas for ${clientName} — 21 July 2026`;
+  const body = `Hi,
+
+Based on this week's Macquarie research, here are three ideas matched to your coverage:
+
+${top3.map((p, i) => `${i+1}. ${p.name} (${p.ticker}) — ${p.rating}, ${p.tsr}`).join("\n")}
+
+Full write-up with moat and thesis for each name: ${pageUrl}
+
+Happy to set up a call with the analyst on any of these.
+
+Best,
+Mathieu`;
+  return `mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+}
+
 async function main() {
   const clients = await airtableGetAll(TABLE_CLIENTS);
   fs.mkdirSync("public-picks", { recursive: true });
@@ -158,10 +177,11 @@ async function main() {
 
     const slug = slugify(clientName);
     const pageUrl = `${SITE_URL}/public-picks/${slug}.html`;
+    const mailtoLink = renderMailtoLink(clientName, top3, pageUrl);
 
     fs.writeFileSync(path.join("public-picks", `${slug}.html`), renderClientHTML(clientName, top3));
     fs.writeFileSync(path.join("outreach-emails", `${slug}.eml`), renderEML(clientName, contactName, email, top3, pageUrl));
-    manifest.push({ clientName, slug, pickCount: top3.length });
+    manifest.push({ clientName, slug, pickCount: top3.length, mailtoLink });
     count++;
   }
 
