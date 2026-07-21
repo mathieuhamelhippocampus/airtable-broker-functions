@@ -197,10 +197,14 @@
   </div>
 
   <div id="content" class="loading">Récupération des données Airtable…</div>
+
+  <div id="top-picks-section" style="margin-top: 40px;"></div>
 </main>
 
 <script>
 const FUNCTION_URL = "/.netlify/functions/get-daily-tasks";
+const TOP_PICKS_URL = "/.netlify/functions/get-top-picks";
+const TOP_PICKS_HTML_URL = "/top3-du-jour-21juillet.html";
 
 function formatDate(iso) {
   if (!iso) return "";
@@ -274,7 +278,53 @@ async function load() {
   }
 }
 
+function pickCardHTML(p) {
+  return `
+    <div class="reason" style="flex-direction:column; align-items:stretch; gap:4px;">
+      <div style="display:flex; justify-content:space-between; align-items:baseline;">
+        <span><strong>${p.name}</strong> <span class="date">${p.ticker}</span></span>
+        <span class="tag event">${p.rating}</span>
+      </div>
+      <div class="detail" style="font-size:12.5px;">${p.summary}</div>
+      <div class="date" style="font-size:10.5px;">${p.source}</div>
+    </div>`;
+}
+
+async function loadTopPicks() {
+  try {
+    const res = await fetch(TOP_PICKS_URL);
+    const data = await res.json();
+    if (!res.ok || data.error || !data.clients || data.clients.length === 0) return;
+
+    const html = `
+      <div class="summary" style="margin-bottom:16px;">
+        <div class="stat"><div class="num">${data.totalPicksToday}</div><div class="label">Picks du jour</div></div>
+        <div class="stat"><div class="num">${data.totalClientsMatched}</div><div class="label">Clients matchés</div></div>
+      </div>
+      <h2 style="font-family:'EB Garamond', serif; font-size:22px; color:var(--navy); margin-bottom:14px;">
+        Top 3 du jour — par client
+        <a href="${TOP_PICKS_HTML_URL}" target="_blank" style="font-size:12px; margin-left:12px; color:var(--muted);">Voir la note complète →</a>
+      </h2>
+      ${data.clients.map(c => `
+        <div class="client-card">
+          <div class="head">
+            <div class="name">${c.clientName}</div>
+            <div class="count">${c.picks.length} pick(s) matché(s)</div>
+          </div>
+          <div class="reasons">
+            ${c.picks.map(pickCardHTML).join("")}
+          </div>
+        </div>
+      `).join("")}
+    `;
+    document.getElementById("top-picks-section").innerHTML = html;
+  } catch (err) {
+    // silencieux : la section Top Picks est secondaire, ne bloque pas le dashboard principal
+  }
+}
+
 load();
+loadTopPicks();
 </script>
 
 </body>
