@@ -3,444 +3,1702 @@
     "clientName": "AMF Pension",
     "slug": "amf-pension",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20AMF%20Pension%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Famf-pension.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20AMF%20Pension%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Famf-pension.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Amiral Gestion S.A.",
     "slug": "amiral-gestion-s-a",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Amiral%20Gestion%20S.A.%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20LHDS%20(688017%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb246.00%0A2.%20Zhejiang%20Sanhua%20(2050%20HK)%20%E2%80%94%20Outperform%2C%20TP%20HK%2435.60%0A3.%20Cambricon%20(688256%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb2%2C060%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Famiral-gestion-s-a.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Amiral%20Gestion%20S.A.%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20LHDS%20(688017%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb246.00%0A2.%20Zhejiang%20Sanhua%20(2050%20HK)%20%E2%80%94%20Outperform%2C%20TP%20HK%2435.60%0A3.%20Cambricon%20(688256%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb2%2C060%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Famiral-gestion-s-a.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "LHDS",
+        "ticker": "688017 CH",
+        "rating": "Outperform"
+      },
+      {
+        "name": "Zhejiang Sanhua",
+        "ticker": "2050 HK",
+        "rating": "Outperform"
+      },
+      {
+        "name": "Cambricon",
+        "ticker": "688256 CH",
+        "rating": "Outperform"
+      }
+    ]
   },
   {
     "clientName": "Amplegest SA",
     "slug": "amplegest-sa",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Amplegest%20SA%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Famplegest-sa.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Amplegest%20SA%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Famplegest-sa.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Arbejdsmarkedets Tillaegspension (ATP)",
     "slug": "arbejdsmarkedets-tillaegspension-atp",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Arbejdsmarkedets%20Tillaegspension%20(ATP)%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Farbejdsmarkedets-tillaegspension-atp.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Arbejdsmarkedets%20Tillaegspension%20(ATP)%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Farbejdsmarkedets-tillaegspension-atp.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Athymis Gestion",
     "slug": "athymis-gestion",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Athymis%20Gestion%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fathymis-gestion.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Athymis%20Gestion%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fathymis-gestion.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Banco BPM S.p.A.",
     "slug": "banco-bpm-s-p-a",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Banco%20BPM%20S.p.A.%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fbanco-bpm-s-p-a.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Banco%20BPM%20S.p.A.%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fbanco-bpm-s-p-a.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Banque Degroof Petercam SA",
     "slug": "banque-degroof-petercam-sa",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Banque%20Degroof%20Petercam%20SA%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fbanque-degroof-petercam-sa.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Banque%20Degroof%20Petercam%20SA%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fbanque-degroof-petercam-sa.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Banque du Luxembourg",
     "slug": "banque-du-luxembourg",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Banque%20du%20Luxembourg%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fbanque-du-luxembourg.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Banque%20du%20Luxembourg%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fbanque-du-luxembourg.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Berenberg Bank",
     "slug": "berenberg-bank",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Berenberg%20Bank%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fberenberg-bank.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Berenberg%20Bank%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fberenberg-bank.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Brock Milton Capital AB",
     "slug": "brock-milton-capital-ab",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Brock%20Milton%20Capital%20AB%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fbrock-milton-capital-ab.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Brock%20Milton%20Capital%20AB%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fbrock-milton-capital-ab.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "C WorldWide Asset Management",
     "slug": "c-worldwide-asset-management",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20C%20WorldWide%20Asset%20Management%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20LHDS%20(688017%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb246.00%0A2.%20Zhejiang%20Sanhua%20(2050%20HK)%20%E2%80%94%20Outperform%2C%20TP%20HK%2435.60%0A3.%20Cambricon%20(688256%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb2%2C060%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fc-worldwide-asset-management.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20C%20WorldWide%20Asset%20Management%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20LHDS%20(688017%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb246.00%0A2.%20Zhejiang%20Sanhua%20(2050%20HK)%20%E2%80%94%20Outperform%2C%20TP%20HK%2435.60%0A3.%20Cambricon%20(688256%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb2%2C060%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fc-worldwide-asset-management.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "LHDS",
+        "ticker": "688017 CH",
+        "rating": "Outperform"
+      },
+      {
+        "name": "Zhejiang Sanhua",
+        "ticker": "2050 HK",
+        "rating": "Outperform"
+      },
+      {
+        "name": "Cambricon",
+        "ticker": "688256 CH",
+        "rating": "Outperform"
+      }
+    ]
   },
   {
     "clientName": "Candriam Belgium SA",
     "slug": "candriam-belgium-sa",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Candriam%20Belgium%20SA%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20LHDS%20(688017%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb246.00%0A2.%20Zhejiang%20Sanhua%20(2050%20HK)%20%E2%80%94%20Outperform%2C%20TP%20HK%2435.60%0A3.%20Cambricon%20(688256%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb2%2C060%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fcandriam-belgium-sa.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Candriam%20Belgium%20SA%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20LHDS%20(688017%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb246.00%0A2.%20Zhejiang%20Sanhua%20(2050%20HK)%20%E2%80%94%20Outperform%2C%20TP%20HK%2435.60%0A3.%20Cambricon%20(688256%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb2%2C060%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fcandriam-belgium-sa.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "LHDS",
+        "ticker": "688017 CH",
+        "rating": "Outperform"
+      },
+      {
+        "name": "Zhejiang Sanhua",
+        "ticker": "2050 HK",
+        "rating": "Outperform"
+      },
+      {
+        "name": "Cambricon",
+        "ticker": "688256 CH",
+        "rating": "Outperform"
+      }
+    ]
   },
   {
     "clientName": "Capital at Work Foyer Group",
     "slug": "capital-at-work-foyer-group",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Capital%20at%20Work%20Foyer%20Group%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fcapital-at-work-foyer-group.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Capital%20at%20Work%20Foyer%20Group%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fcapital-at-work-foyer-group.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Cardano Asset Management N.V. (previously Actiam)",
     "slug": "cardano-asset-management-n-v-previously-actiam",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Cardano%20Asset%20Management%20N.V.%20(previously%20Actiam)%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fcardano-asset-management-n-v-previously-actiam.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Cardano%20Asset%20Management%20N.V.%20(previously%20Actiam)%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fcardano-asset-management-n-v-previously-actiam.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Cariparma SpA (Credit Agricole Italia S.p.A)",
     "slug": "cariparma-spa-credit-agricole-italia-s-p-a",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Cariparma%20SpA%20(Credit%20Agricole%20Italia%20S.p.A)%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fcariparma-spa-credit-agricole-italia-s-p-a.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Cariparma%20SpA%20(Credit%20Agricole%20Italia%20S.p.A)%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fcariparma-spa-credit-agricole-italia-s-p-a.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Compagnie Monegasque de Banque SAM",
     "slug": "compagnie-monegasque-de-banque-sam",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Compagnie%20Monegasque%20de%20Banque%20SAM%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fcompagnie-monegasque-de-banque-sam.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Compagnie%20Monegasque%20de%20Banque%20SAM%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fcompagnie-monegasque-de-banque-sam.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Credit Agricole Corporate and Investment Bank",
     "slug": "credit-agricole-corporate-and-investment-bank",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Credit%20Agricole%20Corporate%20and%20Investment%20Bank%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fcredit-agricole-corporate-and-investment-bank.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Credit%20Agricole%20Corporate%20and%20Investment%20Bank%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fcredit-agricole-corporate-and-investment-bank.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "CREDIT MUTUEL ASSET MANAGEMENT",
     "slug": "credit-mutuel-asset-management",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20CREDIT%20MUTUEL%20ASSET%20MANAGEMENT%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A2.%20Dingli%20Machinery%20(603338%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb70.50%0A3.%20Hengli%20Hydraulic%20(601100%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb133.30%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fcredit-mutuel-asset-management.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20CREDIT%20MUTUEL%20ASSET%20MANAGEMENT%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A2.%20Dingli%20Machinery%20(603338%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb70.50%0A3.%20Hengli%20Hydraulic%20(601100%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb133.30%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fcredit-mutuel-asset-management.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      },
+      {
+        "name": "Dingli Machinery",
+        "ticker": "603338 CH",
+        "rating": "Outperform"
+      },
+      {
+        "name": "Hengli Hydraulic",
+        "ticker": "601100 CH",
+        "rating": "Outperform"
+      }
+    ]
   },
   {
     "clientName": "DECALIA ASSET MANAGEMENT SA",
     "slug": "decalia-asset-management-sa",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20DECALIA%20ASSET%20MANAGEMENT%20SA%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fdecalia-asset-management-sa.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20DECALIA%20ASSET%20MANAGEMENT%20SA%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fdecalia-asset-management-sa.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Deka Investment GmbH",
     "slug": "deka-investment-gmbh",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Deka%20Investment%20GmbH%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20LHDS%20(688017%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb246.00%0A2.%20Zhejiang%20Sanhua%20(2050%20HK)%20%E2%80%94%20Outperform%2C%20TP%20HK%2435.60%0A3.%20Cambricon%20(688256%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb2%2C060%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fdeka-investment-gmbh.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Deka%20Investment%20GmbH%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20LHDS%20(688017%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb246.00%0A2.%20Zhejiang%20Sanhua%20(2050%20HK)%20%E2%80%94%20Outperform%2C%20TP%20HK%2435.60%0A3.%20Cambricon%20(688256%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb2%2C060%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fdeka-investment-gmbh.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "LHDS",
+        "ticker": "688017 CH",
+        "rating": "Outperform"
+      },
+      {
+        "name": "Zhejiang Sanhua",
+        "ticker": "2050 HK",
+        "rating": "Outperform"
+      },
+      {
+        "name": "Cambricon",
+        "ticker": "688256 CH",
+        "rating": "Outperform"
+      }
+    ]
   },
   {
     "clientName": "Delen Private Bank NV",
     "slug": "delen-private-bank-nv",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Delen%20Private%20Bank%20NV%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fdelen-private-bank-nv.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Delen%20Private%20Bank%20NV%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fdelen-private-bank-nv.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "DnB Asset Management AS",
     "slug": "dnb-asset-management-as",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20DnB%20Asset%20Management%20AS%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fdnb-asset-management-as.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20DnB%20Asset%20Management%20AS%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fdnb-asset-management-as.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "DNCA Finance",
     "slug": "dnca-finance",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20DNCA%20Finance%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fdnca-finance.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20DNCA%20Finance%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fdnca-finance.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "DWS Group GmbH & CO KGaA",
     "slug": "dws-group-gmbh-co-kgaa",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20DWS%20Group%20GmbH%20%26%20CO%20KGaA%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20LHDS%20(688017%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb246.00%0A2.%20Zhejiang%20Sanhua%20(2050%20HK)%20%E2%80%94%20Outperform%2C%20TP%20HK%2435.60%0A3.%20Cambricon%20(688256%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb2%2C060%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fdws-group-gmbh-co-kgaa.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20DWS%20Group%20GmbH%20%26%20CO%20KGaA%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20LHDS%20(688017%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb246.00%0A2.%20Zhejiang%20Sanhua%20(2050%20HK)%20%E2%80%94%20Outperform%2C%20TP%20HK%2435.60%0A3.%20Cambricon%20(688256%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb2%2C060%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fdws-group-gmbh-co-kgaa.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "LHDS",
+        "ticker": "688017 CH",
+        "rating": "Outperform"
+      },
+      {
+        "name": "Zhejiang Sanhua",
+        "ticker": "2050 HK",
+        "rating": "Outperform"
+      },
+      {
+        "name": "Cambricon",
+        "ticker": "688256 CH",
+        "rating": "Outperform"
+      }
+    ]
   },
   {
     "clientName": "Eika Kapitalforvaltning AS",
     "slug": "eika-kapitalforvaltning-as",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Eika%20Kapitalforvaltning%20AS%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Feika-kapitalforvaltning-as.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Eika%20Kapitalforvaltning%20AS%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Feika-kapitalforvaltning-as.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Ellipsis AM",
     "slug": "ellipsis-am",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Ellipsis%20AM%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fellipsis-am.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Ellipsis%20AM%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fellipsis-am.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Elo Mutual Pension Insurance Company",
     "slug": "elo-mutual-pension-insurance-company",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Elo%20Mutual%20Pension%20Insurance%20Company%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Felo-mutual-pension-insurance-company.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Elo%20Mutual%20Pension%20Insurance%20Company%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Felo-mutual-pension-insurance-company.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "eQ Fund Management Company Ltd",
     "slug": "eq-fund-management-company-ltd",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20eQ%20Fund%20Management%20Company%20Ltd%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Feq-fund-management-company-ltd.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20eQ%20Fund%20Management%20Company%20Ltd%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Feq-fund-management-company-ltd.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "ETHENEA Independent Investors S.A.",
     "slug": "ethenea-independent-investors-s-a",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20ETHENEA%20Independent%20Investors%20S.A.%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fethenea-independent-investors-s-a.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20ETHENEA%20Independent%20Investors%20S.A.%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fethenea-independent-investors-s-a.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Eurizon Capital SGR",
     "slug": "eurizon-capital-sgr",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Eurizon%20Capital%20SGR%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Feurizon-capital-sgr.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Eurizon%20Capital%20SGR%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Feurizon-capital-sgr.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Fideuram - Intesa Sanpaolo Private Banking S.p.A.",
     "slug": "fideuram-intesa-sanpaolo-private-banking-s-p-a",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Fideuram%20-%20Intesa%20Sanpaolo%20Private%20Banking%20S.p.A.%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Ffideuram-intesa-sanpaolo-private-banking-s-p-a.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Fideuram%20-%20Intesa%20Sanpaolo%20Private%20Banking%20S.p.A.%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Ffideuram-intesa-sanpaolo-private-banking-s-p-a.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Fideuram Asset Management SGR SpA",
     "slug": "fideuram-asset-management-sgr-spa",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Fideuram%20Asset%20Management%20SGR%20SpA%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Ffideuram-asset-management-sgr-spa.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Fideuram%20Asset%20Management%20SGR%20SpA%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Ffideuram-asset-management-sgr-spa.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Financiere de l'Echiquier SA",
     "slug": "financiere-de-l-echiquier-sa",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Financiere%20de%20l'Echiquier%20SA%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Ffinanciere-de-l-echiquier-sa.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Financiere%20de%20l'Echiquier%20SA%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Ffinanciere-de-l-echiquier-sa.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Finserve Nordic AB",
     "slug": "finserve-nordic-ab",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Finserve%20Nordic%20AB%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Ffinserve-nordic-ab.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Finserve%20Nordic%20AB%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Ffinserve-nordic-ab.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "First Fondene AS",
     "slug": "first-fondene-as",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20First%20Fondene%20AS%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Ffirst-fondene-as.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20First%20Fondene%20AS%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Ffirst-fondene-as.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "First Sentier Investors IM Limited",
     "slug": "first-sentier-investors-im-limited",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20First%20Sentier%20Investors%20IM%20Limited%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20LHDS%20(688017%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb246.00%0A2.%20Zhejiang%20Sanhua%20(2050%20HK)%20%E2%80%94%20Outperform%2C%20TP%20HK%2435.60%0A3.%20Cambricon%20(688256%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb2%2C060%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Ffirst-sentier-investors-im-limited.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20First%20Sentier%20Investors%20IM%20Limited%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20LHDS%20(688017%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb246.00%0A2.%20Zhejiang%20Sanhua%20(2050%20HK)%20%E2%80%94%20Outperform%2C%20TP%20HK%2435.60%0A3.%20Cambricon%20(688256%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb2%2C060%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Ffirst-sentier-investors-im-limited.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "LHDS",
+        "ticker": "688017 CH",
+        "rating": "Outperform"
+      },
+      {
+        "name": "Zhejiang Sanhua",
+        "ticker": "2050 HK",
+        "rating": "Outperform"
+      },
+      {
+        "name": "Cambricon",
+        "ticker": "688256 CH",
+        "rating": "Outperform"
+      }
+    ]
   },
   {
     "clientName": "Gestion Financiere Privee GEFIP",
     "slug": "gestion-financiere-privee-gefip",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Gestion%20Financiere%20Privee%20GEFIP%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fgestion-financiere-privee-gefip.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Gestion%20Financiere%20Privee%20GEFIP%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fgestion-financiere-privee-gefip.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Gestron Asset Management SA",
     "slug": "gestron-asset-management-sa",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Gestron%20Asset%20Management%20SA%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fgestron-asset-management-sa.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Gestron%20Asset%20Management%20SA%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fgestron-asset-management-sa.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Hamco AM SGIIC SA",
     "slug": "hamco-am-sgiic-sa",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Hamco%20AM%20SGIIC%20SA%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fhamco-am-sgiic-sa.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Hamco%20AM%20SGIIC%20SA%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fhamco-am-sgiic-sa.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Handelsbanken Asset Management",
     "slug": "handelsbanken-asset-management",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Handelsbanken%20Asset%20Management%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20LHDS%20(688017%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb246.00%0A2.%20Zhejiang%20Sanhua%20(2050%20HK)%20%E2%80%94%20Outperform%2C%20TP%20HK%2435.60%0A3.%20Cambricon%20(688256%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb2%2C060%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fhandelsbanken-asset-management.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Handelsbanken%20Asset%20Management%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20LHDS%20(688017%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb246.00%0A2.%20Zhejiang%20Sanhua%20(2050%20HK)%20%E2%80%94%20Outperform%2C%20TP%20HK%2435.60%0A3.%20Cambricon%20(688256%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb2%2C060%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fhandelsbanken-asset-management.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "LHDS",
+        "ticker": "688017 CH",
+        "rating": "Outperform"
+      },
+      {
+        "name": "Zhejiang Sanhua",
+        "ticker": "2050 HK",
+        "rating": "Outperform"
+      },
+      {
+        "name": "Cambricon",
+        "ticker": "688256 CH",
+        "rating": "Outperform"
+      }
+    ]
   },
   {
     "clientName": "Haspa - Hamburger Sparkasse Private Banking",
     "slug": "haspa-hamburger-sparkasse-private-banking",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Haspa%20-%20Hamburger%20Sparkasse%20Private%20Banking%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fhaspa-hamburger-sparkasse-private-banking.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Haspa%20-%20Hamburger%20Sparkasse%20Private%20Banking%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fhaspa-hamburger-sparkasse-private-banking.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "HOLBERG FONDSFORVALTNING AS",
     "slug": "holberg-fondsforvaltning-as",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20HOLBERG%20FONDSFORVALTNING%20AS%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fholberg-fondsforvaltning-as.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20HOLBERG%20FONDSFORVALTNING%20AS%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fholberg-fondsforvaltning-as.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Indecap Fonder AB",
     "slug": "indecap-fonder-ab",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Indecap%20Fonder%20AB%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Findecap-fonder-ab.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Indecap%20Fonder%20AB%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Findecap-fonder-ab.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Intesa Sanpaolo SpA",
     "slug": "intesa-sanpaolo-spa",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Intesa%20Sanpaolo%20SpA%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fintesa-sanpaolo-spa.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Intesa%20Sanpaolo%20SpA%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fintesa-sanpaolo-spa.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Kempen Capital Management NV",
     "slug": "kempen-capital-management-nv",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Kempen%20Capital%20Management%20NV%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fkempen-capital-management-nv.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Kempen%20Capital%20Management%20NV%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fkempen-capital-management-nv.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Lannebo Kapitalförvaltning AB",
     "slug": "lannebo-kapitalforvaltning-ab",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Lannebo%20Kapitalf%C3%B6rvaltning%20AB%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Flannebo-kapitalforvaltning-ab.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Lannebo%20Kapitalf%C3%B6rvaltning%20AB%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Flannebo-kapitalforvaltning-ab.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Mainfirst Affiliated Fund Managers GmbH",
     "slug": "mainfirst-affiliated-fund-managers-gmbh",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Mainfirst%20Affiliated%20Fund%20Managers%20GmbH%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20LHDS%20(688017%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb246.00%0A2.%20Zhejiang%20Sanhua%20(2050%20HK)%20%E2%80%94%20Outperform%2C%20TP%20HK%2435.60%0A3.%20Cambricon%20(688256%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb2%2C060%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fmainfirst-affiliated-fund-managers-gmbh.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Mainfirst%20Affiliated%20Fund%20Managers%20GmbH%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20LHDS%20(688017%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb246.00%0A2.%20Zhejiang%20Sanhua%20(2050%20HK)%20%E2%80%94%20Outperform%2C%20TP%20HK%2435.60%0A3.%20Cambricon%20(688256%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb2%2C060%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fmainfirst-affiliated-fund-managers-gmbh.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "LHDS",
+        "ticker": "688017 CH",
+        "rating": "Outperform"
+      },
+      {
+        "name": "Zhejiang Sanhua",
+        "ticker": "2050 HK",
+        "rating": "Outperform"
+      },
+      {
+        "name": "Cambricon",
+        "ticker": "688256 CH",
+        "rating": "Outperform"
+      }
+    ]
   },
   {
     "clientName": "Mandarine Gestion",
     "slug": "mandarine-gestion",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Mandarine%20Gestion%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fmandarine-gestion.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Mandarine%20Gestion%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fmandarine-gestion.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Mansartis",
     "slug": "mansartis",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Mansartis%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fmansartis.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Mansartis%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fmansartis.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Mediolanum International Funds Limited",
     "slug": "mediolanum-international-funds-limited",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Mediolanum%20International%20Funds%20Limited%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fmediolanum-international-funds-limited.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Mediolanum%20International%20Funds%20Limited%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fmediolanum-international-funds-limited.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "MERKUR PRIVATBANK KGaA",
     "slug": "merkur-privatbank-kgaa",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20MERKUR%20PRIVATBANK%20KGaA%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fmerkur-privatbank-kgaa.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20MERKUR%20PRIVATBANK%20KGaA%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fmerkur-privatbank-kgaa.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Mirova",
     "slug": "mirova",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Mirova%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fmirova.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Mirova%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fmirova.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Montpensier Arbevel",
     "slug": "montpensier-arbevel",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Montpensier%20Arbevel%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fmontpensier-arbevel.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Montpensier%20Arbevel%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fmontpensier-arbevel.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Nykredit Bank A/S",
     "slug": "nykredit-bank-a-s",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Nykredit%20Bank%20A%2FS%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fnykredit-bank-a-s.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Nykredit%20Bank%20A%2FS%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fnykredit-bank-a-s.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Oddo BHF Asset Management SAS",
     "slug": "oddo-bhf-asset-management-sas",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Oddo%20BHF%20Asset%20Management%20SAS%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Foddo-bhf-asset-management-sas.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Oddo%20BHF%20Asset%20Management%20SAS%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Foddo-bhf-asset-management-sas.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Ofi Invest Asset Management",
     "slug": "ofi-invest-asset-management",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Ofi%20Invest%20Asset%20Management%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fofi-invest-asset-management.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Ofi%20Invest%20Asset%20Management%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fofi-invest-asset-management.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "OP Asset Management Ltd",
     "slug": "op-asset-management-ltd",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20OP%20Asset%20Management%20Ltd%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fop-asset-management-ltd.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20OP%20Asset%20Management%20Ltd%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fop-asset-management-ltd.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Optigestion S.A.",
     "slug": "optigestion-s-a",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Optigestion%20S.A.%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Foptigestion-s-a.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Optigestion%20S.A.%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Foptigestion-s-a.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "PFA Asset Management A/S",
     "slug": "pfa-asset-management-a-s",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20PFA%20Asset%20Management%20A%2FS%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fpfa-asset-management-a-s.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20PFA%20Asset%20Management%20A%2FS%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fpfa-asset-management-a-s.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Platin Holdings S.à.r.l.",
     "slug": "platin-holdings-s-a-r-l",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Platin%20Holdings%20S.%C3%A0.r.l.%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fplatin-holdings-s-a-r-l.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Platin%20Holdings%20S.%C3%A0.r.l.%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fplatin-holdings-s-a-r-l.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Pro BTP",
     "slug": "pro-btp",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Pro%20BTP%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fpro-btp.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Pro%20BTP%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fpro-btp.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Quilvest Banque Privée",
     "slug": "quilvest-banque-privee",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Quilvest%20Banque%20Priv%C3%A9e%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fquilvest-banque-privee.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Quilvest%20Banque%20Priv%C3%A9e%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fquilvest-banque-privee.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Santander Private Banking Gestion",
     "slug": "santander-private-banking-gestion",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Santander%20Private%20Banking%20Gestion%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fsantander-private-banking-gestion.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Santander%20Private%20Banking%20Gestion%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fsantander-private-banking-gestion.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Sienna Gestion",
     "slug": "sienna-gestion",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Sienna%20Gestion%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fsienna-gestion.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Sienna%20Gestion%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fsienna-gestion.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Storebrand Asset Management AS",
     "slug": "storebrand-asset-management-as",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Storebrand%20Asset%20Management%20AS%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fstorebrand-asset-management-as.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Storebrand%20Asset%20Management%20AS%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fstorebrand-asset-management-as.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Swedbank Robur Fonder AB",
     "slug": "swedbank-robur-fonder-ab",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Swedbank%20Robur%20Fonder%20AB%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fswedbank-robur-fonder-ab.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Swedbank%20Robur%20Fonder%20AB%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fswedbank-robur-fonder-ab.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Sycomore Asset Management",
     "slug": "sycomore-asset-management",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Sycomore%20Asset%20Management%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20LHDS%20(688017%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb246.00%0A2.%20Zhejiang%20Sanhua%20(2050%20HK)%20%E2%80%94%20Outperform%2C%20TP%20HK%2435.60%0A3.%20Cambricon%20(688256%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb2%2C060%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fsycomore-asset-management.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Sycomore%20Asset%20Management%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20LHDS%20(688017%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb246.00%0A2.%20Zhejiang%20Sanhua%20(2050%20HK)%20%E2%80%94%20Outperform%2C%20TP%20HK%2435.60%0A3.%20Cambricon%20(688256%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb2%2C060%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fsycomore-asset-management.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "LHDS",
+        "ticker": "688017 CH",
+        "rating": "Outperform"
+      },
+      {
+        "name": "Zhejiang Sanhua",
+        "ticker": "2050 HK",
+        "rating": "Outperform"
+      },
+      {
+        "name": "Cambricon",
+        "ticker": "688256 CH",
+        "rating": "Outperform"
+      }
+    ]
   },
   {
     "clientName": "SYDBANK AS",
     "slug": "sydbank-as",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20SYDBANK%20AS%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fsydbank-as.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20SYDBANK%20AS%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fsydbank-as.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Syncicap",
     "slug": "syncicap",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Syncicap%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Frontken%20(FRCB%20MK)%20%E2%80%94%20Outperform%2C%2019.6%25%0A2.%20ViTrox%20(VITRO%20MK)%20%E2%80%94%20Outperform%2C%2016.2%25%0A3.%20UWC%20(UWC%20MK)%20%E2%80%94%20Outperform%2C%2022.0%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fsyncicap.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Syncicap%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Frontken%20(FRCB%20MK)%20%E2%80%94%20Outperform%2C%2019.6%25%0A2.%20ViTrox%20(VITRO%20MK)%20%E2%80%94%20Outperform%2C%2016.2%25%0A3.%20UWC%20(UWC%20MK)%20%E2%80%94%20Outperform%2C%2022.0%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fsyncicap.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Frontken",
+        "ticker": "FRCB MK",
+        "rating": "Outperform"
+      },
+      {
+        "name": "ViTrox",
+        "ticker": "VITRO MK",
+        "rating": "Outperform"
+      },
+      {
+        "name": "UWC",
+        "ticker": "UWC MK",
+        "rating": "Outperform"
+      }
+    ]
   },
   {
     "clientName": "Tareno AG",
     "slug": "tareno-ag",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Tareno%20AG%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Ftareno-ag.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Tareno%20AG%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Ftareno-ag.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "UBS La Maison de Gestion",
     "slug": "ubs-la-maison-de-gestion",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20UBS%20La%20Maison%20de%20Gestion%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fubs-la-maison-de-gestion.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20UBS%20La%20Maison%20de%20Gestion%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fubs-la-maison-de-gestion.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Unicredit",
     "slug": "unicredit",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Unicredit%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Funicredit.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Unicredit%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Funicredit.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Universal Investment GmbH",
     "slug": "universal-investment-gmbh",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Universal%20Investment%20GmbH%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Funiversal-investment-gmbh.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Universal%20Investment%20GmbH%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Funiversal-investment-gmbh.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   },
   {
     "clientName": "Value Tree",
     "slug": "value-tree",
     "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Value%20Tree%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fvalue-tree.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
+    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Value%20Tree%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Bangkok%20Bank%20(BBL%20TB)%20%E2%80%94%20Underperform%2C%20-34.4%25%0A2.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A3.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fvalue-tree.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu",
+    "preview": [
+      {
+        "name": "Bangkok Bank",
+        "ticker": "BBL TB",
+        "rating": "Underperform"
+      },
+      {
+        "name": "Macro / Strategy synthesis",
+        "ticker": "Cross-asset",
+        "rating": "Briefing note"
+      },
+      {
+        "name": "Weichai Power",
+        "ticker": "000338 CH / 2338 HK",
+        "rating": "Outperform — Marquee Buy"
+      }
+    ]
   }
 ]

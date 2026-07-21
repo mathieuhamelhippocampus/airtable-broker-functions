@@ -220,7 +220,13 @@ async function main() {
 
     fs.writeFileSync(path.join("public-picks", `${slug}.html`), renderClientHTML(clientName, top3));
     fs.writeFileSync(path.join("outreach-emails", `${slug}.eml`), renderEML(clientName, contactName, email, top3, pageUrl));
-    manifest.push({ clientName, slug, pickCount: top3.length, mailtoLink });
+    manifest.push({
+      clientName,
+      slug,
+      pickCount: top3.length,
+      mailtoLink,
+      preview: top3.map(p => ({ name: p.name, ticker: p.ticker, rating: p.rating })),
+    });
     count++;
   }
 

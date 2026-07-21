@@ -313,14 +313,23 @@ async function load() {
 }
 
 function picksRowHTML(entry) {
+  const previewHTML = (entry.preview || []).map(p => `
+    <div style="display:flex; justify-content:space-between; font-size:12px; padding:4px 0; border-top:1px solid var(--line);">
+      <span><strong>${p.name}</strong> <span style="color:var(--muted);">${p.ticker}</span></span>
+      <span style="color:var(--muted);">${p.rating}</span>
+    </div>`).join("");
+
   return `
-    <div class="picks-row" data-name="${entry.clientName.toLowerCase()}">
-      <span>${entry.clientName}</span>
-      <span class="picks-actions">
-        <span class="count">${entry.pickCount} pick(s)</span>
-        <a href="/public-picks/${entry.slug}.html" target="_blank">Voir →</a>
-        <a href="${entry.mailtoLink}">✉ Email</a>
-      </span>
+    <div class="picks-row" data-name="${entry.clientName.toLowerCase()}" style="flex-direction:column; align-items:stretch;">
+      <div style="display:flex; justify-content:space-between; align-items:center;">
+        <span>${entry.clientName}</span>
+        <span class="picks-actions">
+          <span class="count">${entry.pickCount} pick(s)</span>
+          <a href="/public-picks/${entry.slug}.html" target="_blank">Full page →</a>
+          <a href="${entry.mailtoLink}">✉ Email</a>
+        </span>
+      </div>
+      <div style="margin-top:6px;">${previewHTML}</div>
     </div>`;
 }
 
