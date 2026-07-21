@@ -1,0 +1,171 @@
+import { TOP_PICKS_POOL } from "../lib/top-picks-data.mjs";
+import fs from "fs";
+import path from "path";
+
+const AIRTABLE_TOKEN = process.env.AIRTABLE_TOKEN;
+const AIRTABLE_BASE_ID = process.env.AIRTABLE_BASE_ID;
+const TABLE_CLIENTS = "Clients - Investment Universe";
+const SITE_URL = "https://airtable-broker-functions.netlify.app";
+const EMAIL_FIELD_CANDIDATES = ["Email", "Contact Email", "E-mail", "Email Address"];
+
+if (!AIRTABLE_TOKEN || !AIRTABLE_BASE_ID) {
+  console.error("AIRTABLE_TOKEN / AIRTABLE_BASE_ID manquants dans l'environnement. Fais `netlify env:pull` ou exporte-les avant de lancer ce script.");
+  process.exit(1);
+}
+
+async function airtableGetAll(tableName) {
+  let records = [];
+  let offset;
+  do {
+    const url = `https://api.airtable.com/v0/${AIRTABLE_BASE_ID}/${encodeURIComponent(tableName)}${offset ? `?offset=${offset}` : ""}`;
+    const res = await fetch(url, { headers: { Authorization: `Bearer ${AIRTABLE_TOKEN}` } });
+    if (!res.ok) throw new Error(`Airtable error ${res.status}: ${await res.text()}`);
+    const data = await res.json();
+    records = records.concat(data.records);
+    offset = data.offset;
+  } while (offset);
+  return records;
+}
+
+function asArray(v) { return !v ? [] : Array.isArray(v) ? v : [v]; }
+function zoneMatch(pickCountries, clientZones) {
+  const cs = new Set(asArray(clientZones));
+  if (cs.has("Global (All Countries)")) return true;
+  return asArray(pickCountries).some((c) => cs.has(c));
+}
+function secteurMatch(pickSecteurs, clientSecteurs) {
+  const cs = new Set(asArray(clientSecteurs));
+  return asArray(pickSecteurs).some((s) => cs.has(s));
+}
+function slugify(name) {
+  return name.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
+}
+function firstName(v) { return Array.isArray(v) ? (v[0] || "") : (v || ""); }
+
+function pickTop3(clientZones, clientSecteurs, usedGlobally) {
+  const exact = TOP_PICKS_POOL.filter(p => zoneMatch(p.countries, clientZones) && secteurMatch(p.secteurs, clientSecteurs));
+  const sectorOnly = TOP_PICKS_POOL.filter(p => !exact.includes(p) && secteurMatch(p.secteurs, clientSecteurs));
+  const rest = TOP_PICKS_POOL.filter(p => !exact.includes(p) && !sectorOnly.includes(p));
+  const combined = [...exact, ...sectorOnly, ...rest];
+  const seen = new Set();
+  const top3 = [];
+  for (const p of combined) {
+    if (seen.has(p.id)) continue;
+    seen.add(p.id);
+    top3.push(p);
+    if (top3.length === 3) break;
+  }
+  return top3;
+}
+
+function renderClientHTML(clientName, top3) {
+  const cardHTML = (p, i) => `
+  <div class="card rank-${i+1}">
+    <div class="card-left">
+      <div class="rank-number">0${i+1}</div>
+      <div class="rank-label">Pick ${i+1}</div>
+      <div class="card-ticker">${p.name}</div>
+      <div class="card-name">${p.ticker}</div>
+      <span class="pill pill-blue">${p.rating}</span>
+      <div class="card-tsr">${p.tsr}</div>
+    </div>
+    <div class="card-right">
+      <ul class="pts">
+        <li><strong>Moat —</strong> ${p.moat}</li>
+        <li><strong>Thesis —</strong> ${p.thesis}</li>
+      </ul>
+      <div class="card-source">${p.source}</div>
+    </div>
+  </div>`;
+
+  return `<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Top 3 for ${clientName} — 21 July 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Figtree:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root { --white:#fff; --off:#f7f6f3; --rule:#d8d4cc; --muted:#9a9488; --body:#2c2a26; --ink:#141210; --blue:#1a3a6b; --blue-light:#e8eef6; --green:#1a5c3a; --amber:#8b5a00; }
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:'Figtree',sans-serif;font-size:13px;color:var(--body);}
+.topbar{background:var(--blue);color:#fff;font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;padding:7px 36px;display:flex;justify-content:space-between;}
+header{padding:28px 36px 20px;border-bottom:1px solid var(--rule);}
+header h1{font-family:'EB Garamond',serif;font-size:30px;color:var(--ink);}
+header .sub{font-size:12px;color:var(--muted);margin-top:6px;}
+.main{padding:26px 36px;}
+.card{display:grid;grid-template-columns:200px 1fr;border:1px solid var(--rule);border-radius:3px;margin-bottom:16px;overflow:hidden;}
+.card.rank-1{border-top:3px solid var(--blue);} .card.rank-2{border-top:3px solid var(--green);} .card.rank-3{border-top:3px solid var(--amber);}
+.card-left{padding:18px 16px;border-right:1px solid var(--rule);background:var(--off);}
+.rank-number{font-family:'EB Garamond',serif;font-size:26px;font-weight:600;color:var(--blue);}
+.rank-label{font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:10px;}
+.card-ticker{font-family:'EB Garamond',serif;font-size:20px;color:var(--ink);}
+.card-name{font-size:11px;color:var(--muted);margin-bottom:6px;}
+.pill{display:inline-block;font-size:9px;text-transform:uppercase;padding:3px 8px;border-radius:2px;background:var(--blue-light);color:var(--blue);}
+.card-tsr{font-size:11px;color:var(--muted);margin-top:8px;}
+.card-right{padding:18px 20px;}
+ul.pts{list-style:none;display:flex;flex-direction:column;gap:8px;margin-bottom:10px;}
+ul.pts li{font-size:12px;line-height:1.5;}
+.card-source{font-size:9.5px;color:var(--muted);}
+footer{background:var(--off);border-top:1px solid var(--rule);padding:16px 36px;font-size:10px;color:var(--muted);}
+</style></head><body>
+<div class="topbar"><span>Kepler Cheuvreux — Institutional Equity Sales</span><span>Top 3 Ideas — 21 July 2026</span></div>
+<header><h1>Top 3 for ${clientName}</h1><div class="sub">Personalised from Macquarie Research notes published 21 July 2026, matched to your sector and geography mandate.</div></header>
+<div class="main">
+${top3.map(cardHTML).join("")}
+</div>
+<footer>Kepler Cheuvreux — institutional use only. All ratings, targets and TSR figures sourced from Macquarie Research, 21 July 2026.</footer>
+</body></html>`;
+}
+
+function renderEML(clientName, contactName, email, top3, pageUrl) {
+  const to = email || "TODO@fill-in-manually.com";
+  const subject = `Top 3 ideas for ${clientName} — 21 July 2026`;
+  const greeting = contactName ? `Hi ${contactName.split(" ")[0]},` : "Hi,";
+  const body = `${greeting}
+
+Based on this week's Macquarie research, here are three ideas matched to your coverage:
+
+${top3.map((p, i) => `${i+1}. ${p.name} (${p.ticker}) — ${p.rating}, ${p.tsr}`).join("\n")}
+
+Full write-up with moat and thesis for each name: ${pageUrl}
+
+Happy to set up a call with the analyst on any of these.
+
+Best,
+Mathieu`;
+  return `To: ${to}\nSubject: ${subject}\nContent-Type: text/plain; charset="UTF-8"\n\n${body}\n`;
+}
+
+async function main() {
+  const clients = await airtableGetAll(TABLE_CLIENTS);
+  fs.mkdirSync("public-picks", { recursive: true });
+  fs.mkdirSync("outreach-emails", { recursive: true });
+
+  const missingEmail = [];
+  let count = 0;
+
+  for (const cl of clients) {
+    const cf = cl.fields || {};
+    const clientName = firstName(cf["Management Company"]) || cl.fields["Name"] || "Client";
+    const contactName = cf["Contact Name"] || cf["Contact"] || "";
+    let email = "";
+    for (const f of EMAIL_FIELD_CANDIDATES) { if (cf[f]) { email = cf[f]; break; } }
+    if (!email) missingEmail.push(clientName);
+
+    const top3 = pickTop3(cf["Geographic Universe"], cf["Sectors / Themes Followed"]);
+    if (top3.length === 0) continue;
+
+    const slug = slugify(clientName);
+    const pageUrl = `${SITE_URL}/public-picks/${slug}.html`;
+
+    fs.writeFileSync(path.join("public-picks", `${slug}.html`), renderClientHTML(clientName, top3));
+    fs.writeFileSync(path.join("outreach-emails", `${slug}.eml`), renderEML(clientName, contactName, email, top3, pageUrl));
+    count++;
+  }
+
+  fs.writeFileSync(path.join("outreach-emails", "_missing-emails.txt"), missingEmail.join("\n"));
+  console.log(`Généré : ${count} pages HTML + ${count} emails .eml`);
+  console.log(`Clients sans email trouvé : ${missingEmail.length} (voir outreach-emails/_missing-emails.txt)`);
+}
+
+main();
