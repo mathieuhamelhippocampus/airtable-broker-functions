@@ -232,13 +232,11 @@
   </div>
 
   <div id="content" class="loading">Récupération des données Airtable…</div>
-
-  <div id="personalized-picks-section" style="margin-top: 40px;"></div>
 </main>
 
 <script>
 const FUNCTION_URL = "/.netlify/functions/get-daily-tasks";
-const PERSONALIZED_PICKS_MANIFEST_URL = "/public-picks/manifest.json";
+const TOP_PICKS_MANIFEST_URL = "/public-picks/manifest.json";
 
 function formatDate(iso) {
   if (!iso) return "";
@@ -267,12 +265,48 @@ function reasonHTML(r) {
     </div>`;
 }
 
+function pickPreviewHTML(entry) {
+  if (!entry || !entry.preview || entry.preview.length === 0) return "";
+  const rows = entry.preview.map(p => `
+    <div style="display:flex; justify-content:space-between; font-size:12.5px; padding:6px 0; border-top:1px solid var(--line);">
+      <span><strong>${p.name}</strong> <span style="color:var(--muted);">${p.ticker}</span></span>
+      <span style="color:var(--muted);">${p.rating}</span>
+    </div>`).join("");
+  return `
+    <div style="margin-top:10px; padding-top:10px; border-top:1px dashed var(--line);">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:2px;">
+        <span style="font-size:11px; letter-spacing:0.05em; text-transform:uppercase; color:var(--muted);">Top 3 personnalisé</span>
+        <span>
+          <a href="/public-picks/${entry.slug}.html" target="_blank" style="font-size:12px; color:var(--navy); text-decoration:none; margin-right:10px;">Full page →</a>
+          <a href="${entry.mailtoLink}" style="font-size:12px; color:var(--navy); text-decoration:none;">✉ Email</a>
+        </span>
+      </div>
+      ${rows}
+    </div>`;
+}
+
+function normalizeName(name) {
+  return (name || "").toLowerCase().trim();
+}
+
 async function load() {
   try {
-    const res = await fetch(FUNCTION_URL);
-    const data = await res.json();
+    const [tasksRes, picksRes] = await Promise.all([
+      fetch(FUNCTION_URL),
+      fetch(TOP_PICKS_MANIFEST_URL).catch(() => null),
+    ]);
 
-    if (!res.ok || data.error) {
+    const data = await tasksRes.json();
+
+    let picksByName = {};
+    if (picksRes && picksRes.ok) {
+      const manifest = await picksRes.json();
+      if (Array.isArray(manifest)) {
+        manifest.forEach(entry => { picksByName[normalizeName(entry.clientName)] = entry; });
+      }
+    }
+
+    if (!tasksRes.ok || data.error) {
       document.getElementById("content").innerHTML =
         `<div class="error-box">Erreur : ${data.error || "réponse invalide du serveur"}</div>`;
       document.getElementById("generated-at").textContent = "Erreur de chargement";
@@ -293,7 +327,9 @@ async function load() {
       return;
     }
 
-    const html = data.tasks.map(task => `
+    const html = data.tasks.map(task => {
+      const pickEntry = picksByName[normalizeName(task.clientName)];
+      return `
       <div class="client-card">
         <div class="head">
           <div class="name">${task.clientName}${task.totalBudget > 0 ? ` <span class="tag budget" style="margin-left:8px;">${task.budget}K€ + ${task.tradingYTD}K€ = ${task.totalBudget}K€</span>` : ""}${task.callsRemaining !== null ? ` <span class="date" style="margin-left:8px; font-weight:400;">· ${task.callsRemaining} appel(s) restant(s) au quota</span>` : ""}</div>
@@ -301,9 +337,11 @@ async function load() {
         </div>
         <div class="reasons">
           ${task.reasons.map(reasonHTML).join("")}
+          ${pickPreviewHTML(pickEntry)}
         </div>
       </div>
-    `).join("");
+    `;
+    }).join("");
 
     document.getElementById("content").innerHTML = html;
   } catch (err) {
@@ -312,59 +350,7 @@ async function load() {
   }
 }
 
-function picksRowHTML(entry) {
-  const previewHTML = (entry.preview || []).map(p => `
-    <div style="display:flex; justify-content:space-between; font-size:12px; padding:4px 0; border-top:1px solid var(--line);">
-      <span><strong>${p.name}</strong> <span style="color:var(--muted);">${p.ticker}</span></span>
-      <span style="color:var(--muted);">${p.rating}</span>
-    </div>`).join("");
-
-  return `
-    <div class="picks-row" data-name="${entry.clientName.toLowerCase()}" style="flex-direction:column; align-items:stretch;">
-      <div style="display:flex; justify-content:space-between; align-items:center;">
-        <span>${entry.clientName}</span>
-        <span class="picks-actions">
-          <span class="count">${entry.pickCount} pick(s)</span>
-          <a href="/public-picks/${entry.slug}.html" target="_blank">Full page →</a>
-          <a href="${entry.mailtoLink}">✉ Email</a>
-        </span>
-      </div>
-      <div style="margin-top:6px;">${previewHTML}</div>
-    </div>`;
-}
-
-async function loadPersonalizedPicks() {
-  try {
-    const res = await fetch(PERSONALIZED_PICKS_MANIFEST_URL);
-    if (!res.ok) return;
-    const manifest = await res.json();
-    if (!Array.isArray(manifest) || manifest.length === 0) return;
-
-    const html = `
-      <h2 style="font-family:'EB Garamond', serif; font-size:22px; color:var(--navy); margin-bottom:14px;">
-        Top 3 personnalisé par client
-        <span style="font-size:12px; margin-left:12px; color:var(--muted); font-family:'Figtree', sans-serif;">${manifest.length} page(s)</span>
-      </h2>
-      <input type="text" class="picks-search" id="picks-search" placeholder="Rechercher un client…">
-      <div class="picks-list" id="picks-list">
-        ${manifest.map(picksRowHTML).join("")}
-      </div>
-    `;
-    document.getElementById("personalized-picks-section").innerHTML = html;
-
-    document.getElementById("picks-search").addEventListener("input", (e) => {
-      const q = e.target.value.toLowerCase();
-      document.querySelectorAll("#picks-list .picks-row").forEach((row) => {
-        row.style.display = row.dataset.name.includes(q) ? "flex" : "none";
-      });
-    });
-  } catch (err) {
-    // silencieux : la section Top 3 personnalisé est secondaire, ne bloque pas le dashboard principal
-  }
-}
-
 load();
-loadPersonalizedPicks();
 </script>
 
 </body>
