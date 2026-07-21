@@ -43,9 +43,14 @@ function slugify(name) {
 }
 function firstName(v) { return Array.isArray(v) ? (v[0] || "") : (v || ""); }
 
-function pickTop3(clientZones, clientSecteurs, usedGlobally) {
+function pickTop3(clientZones, clientSecteurs) {
   const exact = TOP_PICKS_POOL.filter(p => zoneMatch(p.countries, clientZones) && secteurMatch(p.secteurs, clientSecteurs));
   const sectorOnly = TOP_PICKS_POOL.filter(p => !exact.includes(p) && secteurMatch(p.secteurs, clientSecteurs));
+
+  if (exact.length === 0 && sectorOnly.length === 0) {
+    return { top3: [], matched: false };
+  }
+
   const rest = TOP_PICKS_POOL.filter(p => !exact.includes(p) && !sectorOnly.includes(p));
   const combined = [...exact, ...sectorOnly, ...rest];
   const seen = new Set();
@@ -56,7 +61,7 @@ function pickTop3(clientZones, clientSecteurs, usedGlobally) {
     top3.push(p);
     if (top3.length === 3) break;
   }
-  return top3;
+  return { top3, matched: true };
 }
 
 function renderClientHTML(clientName, top3) {
@@ -161,6 +166,7 @@ async function main() {
   fs.mkdirSync("outreach-emails", { recursive: true });
 
   const missingEmail = [];
+  const noMatch = [];
   const manifest = [];
   let count = 0;
 
@@ -170,10 +176,15 @@ async function main() {
     const contactName = cf["Contact Name"] || cf["Contact"] || "";
     let email = "";
     for (const f of EMAIL_FIELD_CANDIDATES) { if (cf[f]) { email = cf[f]; break; } }
-    if (!email) missingEmail.push(clientName);
 
-    const top3 = pickTop3(cf["Geographic Universe"], cf["Sectors / Themes Followed"]);
-    if (top3.length === 0) continue;
+    const { top3, matched } = pickTop3(cf["Geographic Universe"], cf["Sectors / Themes Followed"]);
+
+    if (!matched) {
+      noMatch.push(clientName);
+      continue;
+    }
+
+    if (!email) missingEmail.push(clientName);
 
     const slug = slugify(clientName);
     const pageUrl = `${SITE_URL}/public-picks/${slug}.html`;
@@ -188,8 +199,10 @@ async function main() {
   manifest.sort((a, b) => a.clientName.localeCompare(b.clientName));
   fs.writeFileSync(path.join("public-picks", "manifest.json"), JSON.stringify(manifest, null, 2));
   fs.writeFileSync(path.join("outreach-emails", "_missing-emails.txt"), missingEmail.join("\n"));
+  fs.writeFileSync(path.join("outreach-emails", "_no-sector-country-match.txt"), noMatch.join("\n"));
   console.log(`Généré : ${count} pages HTML + ${count} emails .eml + manifest.json (${manifest.length} entrées)`);
   console.log(`Clients sans email trouvé : ${missingEmail.length} (voir outreach-emails/_missing-emails.txt)`);
+  console.log(`Clients exclus (aucun match secteur/pays) : ${noMatch.length} (voir outreach-emails/_no-sector-country-match.txt)`);
 }
 
 main();

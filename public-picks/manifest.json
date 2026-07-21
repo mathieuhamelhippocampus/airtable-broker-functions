@@ -1,29 +1,5 @@
 [
   {
-    "clientName": "Acatis Investment",
-    "slug": "acatis-investment",
-    "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Acatis%20Investment%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A2.%20Dingli%20Machinery%20(603338%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb70.50%0A3.%20Hengli%20Hydraulic%20(601100%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb133.30%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Facatis-investment.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
-  },
-  {
-    "clientName": "Acomea",
-    "slug": "acomea",
-    "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Acomea%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A2.%20Dingli%20Machinery%20(603338%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb70.50%0A3.%20Hengli%20Hydraulic%20(601100%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb133.30%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Facomea.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
-  },
-  {
-    "clientName": "Algebris",
-    "slug": "algebris",
-    "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Algebris%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A2.%20Dingli%20Machinery%20(603338%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb70.50%0A3.%20Hengli%20Hydraulic%20(601100%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb133.30%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Falgebris.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
-  },
-  {
-    "clientName": "Allianz Global",
-    "slug": "allianz-global",
-    "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Allianz%20Global%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A2.%20Dingli%20Machinery%20(603338%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb70.50%0A3.%20Hengli%20Hydraulic%20(601100%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb133.30%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fallianz-global.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
-  },
-  {
     "clientName": "AMF Pension",
     "slug": "amf-pension",
     "pickCount": 3,
@@ -54,22 +30,10 @@
     "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Athymis%20Gestion%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A2.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A3.%20Dingli%20Machinery%20(603338%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb70.50%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fathymis-gestion.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
   },
   {
-    "clientName": "Azimut",
-    "slug": "azimut",
-    "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Azimut%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A2.%20Dingli%20Machinery%20(603338%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb70.50%0A3.%20Hengli%20Hydraulic%20(601100%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb133.30%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fazimut.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
-  },
-  {
     "clientName": "Banco BPM S.p.A.",
     "slug": "banco-bpm-s-p-a",
     "pickCount": 3,
     "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Banco%20BPM%20S.p.A.%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A2.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A3.%20Dingli%20Machinery%20(603338%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb70.50%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fbanco-bpm-s-p-a.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
-  },
-  {
-    "clientName": "Banque de France AM",
-    "slug": "banque-de-france-am",
-    "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Banque%20de%20France%20AM%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A2.%20Dingli%20Machinery%20(603338%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb70.50%0A3.%20Hengli%20Hydraulic%20(601100%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb133.30%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fbanque-de-france-am.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
   },
   {
     "clientName": "Banque Degroof Petercam SA",
@@ -162,12 +126,6 @@
     "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Delen%20Private%20Bank%20NV%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A2.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A3.%20Dingli%20Machinery%20(603338%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb70.50%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fdelen-private-bank-nv.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
   },
   {
-    "clientName": "DJE",
-    "slug": "dje",
-    "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20DJE%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A2.%20Dingli%20Machinery%20(603338%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb70.50%0A3.%20Hengli%20Hydraulic%20(601100%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb133.30%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fdje.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
-  },
-  {
     "clientName": "DnB Asset Management AS",
     "slug": "dnb-asset-management-as",
     "pickCount": 3,
@@ -180,28 +138,10 @@
     "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20DNCA%20Finance%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A2.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A3.%20Dingli%20Machinery%20(603338%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb70.50%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fdnca-finance.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
   },
   {
-    "clientName": "DNCA Investments",
-    "slug": "dnca-investments",
-    "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20DNCA%20Investments%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A2.%20Dingli%20Machinery%20(603338%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb70.50%0A3.%20Hengli%20Hydraulic%20(601100%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb133.30%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fdnca-investments.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
-  },
-  {
     "clientName": "DWS Group GmbH & CO KGaA",
     "slug": "dws-group-gmbh-co-kgaa",
     "pickCount": 3,
     "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20DWS%20Group%20GmbH%20%26%20CO%20KGaA%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20LHDS%20(688017%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb246.00%0A2.%20Zhejiang%20Sanhua%20(2050%20HK)%20%E2%80%94%20Outperform%2C%20TP%20HK%2435.60%0A3.%20Cambricon%20(688256%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb2%2C060%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fdws-group-gmbh-co-kgaa.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
-  },
-  {
-    "clientName": "Econopolis",
-    "slug": "econopolis",
-    "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Econopolis%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A2.%20Dingli%20Machinery%20(603338%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb70.50%0A3.%20Hengli%20Hydraulic%20(601100%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb133.30%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Feconopolis.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
-  },
-  {
-    "clientName": "EDRAM",
-    "slug": "edram",
-    "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20EDRAM%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A2.%20Dingli%20Machinery%20(603338%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb70.50%0A3.%20Hengli%20Hydraulic%20(601100%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb133.30%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fedram.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
   },
   {
     "clientName": "Eika Kapitalforvaltning AS",
@@ -226,18 +166,6 @@
     "slug": "eq-fund-management-company-ltd",
     "pickCount": 3,
     "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20eQ%20Fund%20Management%20Company%20Ltd%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A2.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A3.%20Dingli%20Machinery%20(603338%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb70.50%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Feq-fund-management-company-ltd.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
-  },
-  {
-    "clientName": "EQT PARTNERS",
-    "slug": "eqt-partners",
-    "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20EQT%20PARTNERS%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A2.%20Dingli%20Machinery%20(603338%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb70.50%0A3.%20Hengli%20Hydraulic%20(601100%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb133.30%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Feqt-partners.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
-  },
-  {
-    "clientName": "Estela Capital",
-    "slug": "estela-capital",
-    "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Estela%20Capital%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A2.%20Dingli%20Machinery%20(603338%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb70.50%0A3.%20Hengli%20Hydraulic%20(601100%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb133.30%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Festela-capital.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
   },
   {
     "clientName": "ETHENEA Independent Investors S.A.",
@@ -288,18 +216,6 @@
     "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20First%20Sentier%20Investors%20IM%20Limited%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20LHDS%20(688017%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb246.00%0A2.%20Zhejiang%20Sanhua%20(2050%20HK)%20%E2%80%94%20Outperform%2C%20TP%20HK%2435.60%0A3.%20Cambricon%20(688256%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb2%2C060%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Ffirst-sentier-investors-im-limited.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
   },
   {
-    "clientName": "Fourth Swedish National Pension Fund (AP4)",
-    "slug": "fourth-swedish-national-pension-fund-ap4",
-    "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Fourth%20Swedish%20National%20Pension%20Fund%20(AP4)%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A2.%20Dingli%20Machinery%20(603338%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb70.50%0A3.%20Hengli%20Hydraulic%20(601100%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb133.30%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Ffourth-swedish-national-pension-fund-ap4.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
-  },
-  {
-    "clientName": "Gay Lussac",
-    "slug": "gay-lussac",
-    "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Gay%20Lussac%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A2.%20Dingli%20Machinery%20(603338%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb70.50%0A3.%20Hengli%20Hydraulic%20(601100%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb133.30%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fgay-lussac.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
-  },
-  {
     "clientName": "Gestion Financiere Privee GEFIP",
     "slug": "gestion-financiere-privee-gefip",
     "pickCount": 3,
@@ -330,12 +246,6 @@
     "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Haspa%20-%20Hamburger%20Sparkasse%20Private%20Banking%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A2.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A3.%20Dingli%20Machinery%20(603338%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb70.50%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fhaspa-hamburger-sparkasse-private-banking.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
   },
   {
-    "clientName": "HMG Finance",
-    "slug": "hmg-finance",
-    "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20HMG%20Finance%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A2.%20Dingli%20Machinery%20(603338%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb70.50%0A3.%20Hengli%20Hydraulic%20(601100%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb133.30%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fhmg-finance.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
-  },
-  {
     "clientName": "HOLBERG FONDSFORVALTNING AS",
     "slug": "holberg-fondsforvaltning-as",
     "pickCount": 3,
@@ -354,40 +264,16 @@
     "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Intesa%20Sanpaolo%20SpA%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A2.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A3.%20Dingli%20Machinery%20(603338%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb70.50%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fintesa-sanpaolo-spa.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
   },
   {
-    "clientName": "KBC",
-    "slug": "kbc",
-    "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20KBC%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A2.%20Dingli%20Machinery%20(603338%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb70.50%0A3.%20Hengli%20Hydraulic%20(601100%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb133.30%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fkbc.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
-  },
-  {
     "clientName": "Kempen Capital Management NV",
     "slug": "kempen-capital-management-nv",
     "pickCount": 3,
     "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Kempen%20Capital%20Management%20NV%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A2.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A3.%20Dingli%20Machinery%20(603338%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb70.50%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fkempen-capital-management-nv.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
   },
   {
-    "clientName": "Laiqon",
-    "slug": "laiqon",
-    "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Laiqon%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A2.%20Dingli%20Machinery%20(603338%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb70.50%0A3.%20Hengli%20Hydraulic%20(601100%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb133.30%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Flaiqon.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
-  },
-  {
     "clientName": "Lannebo Kapitalförvaltning AB",
     "slug": "lannebo-kapitalforvaltning-ab",
     "pickCount": 3,
     "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Lannebo%20Kapitalf%C3%B6rvaltning%20AB%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A2.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A3.%20Dingli%20Machinery%20(603338%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb70.50%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Flannebo-kapitalforvaltning-ab.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
-  },
-  {
-    "clientName": "Lazard Frères Gestion",
-    "slug": "lazard-freres-gestion",
-    "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Lazard%20Fr%C3%A8res%20Gestion%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A2.%20Dingli%20Machinery%20(603338%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb70.50%0A3.%20Hengli%20Hydraulic%20(601100%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb133.30%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Flazard-freres-gestion.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
-  },
-  {
-    "clientName": "LFG ZEST",
-    "slug": "lfg-zest",
-    "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20LFG%20ZEST%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A2.%20Dingli%20Machinery%20(603338%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb70.50%0A3.%20Hengli%20Hydraulic%20(601100%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb133.30%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Flfg-zest.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
   },
   {
     "clientName": "Mainfirst Affiliated Fund Managers GmbH",
@@ -438,12 +324,6 @@
     "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Nykredit%20Bank%20A%2FS%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A2.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A3.%20Dingli%20Machinery%20(603338%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb70.50%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fnykredit-bank-a-s.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
   },
   {
-    "clientName": "OBAM",
-    "slug": "obam",
-    "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20OBAM%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A2.%20Dingli%20Machinery%20(603338%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb70.50%0A3.%20Hengli%20Hydraulic%20(601100%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb133.30%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fobam.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
-  },
-  {
     "clientName": "Oddo BHF Asset Management SAS",
     "slug": "oddo-bhf-asset-management-sas",
     "pickCount": 3,
@@ -480,12 +360,6 @@
     "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Platin%20Holdings%20S.%C3%A0.r.l.%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A2.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A3.%20Dingli%20Machinery%20(603338%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb70.50%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fplatin-holdings-s-a-r-l.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
   },
   {
-    "clientName": "Prisma Investment Gmbh",
-    "slug": "prisma-investment-gmbh",
-    "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Prisma%20Investment%20Gmbh%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A2.%20Dingli%20Machinery%20(603338%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb70.50%0A3.%20Hengli%20Hydraulic%20(601100%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb133.30%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fprisma-investment-gmbh.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
-  },
-  {
     "clientName": "Pro BTP",
     "slug": "pro-btp",
     "pickCount": 3,
@@ -504,28 +378,10 @@
     "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Santander%20Private%20Banking%20Gestion%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A2.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A3.%20Dingli%20Machinery%20(603338%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb70.50%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fsantander-private-banking-gestion.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
   },
   {
-    "clientName": "SEB",
-    "slug": "seb",
-    "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20SEB%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A2.%20Dingli%20Machinery%20(603338%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb70.50%0A3.%20Hengli%20Hydraulic%20(601100%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb133.30%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fseb.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
-  },
-  {
     "clientName": "Sienna Gestion",
     "slug": "sienna-gestion",
     "pickCount": 3,
     "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Sienna%20Gestion%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A2.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A3.%20Dingli%20Machinery%20(603338%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb70.50%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fsienna-gestion.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
-  },
-  {
-    "clientName": "Sissener AS",
-    "slug": "sissener-as",
-    "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Sissener%20AS%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A2.%20Dingli%20Machinery%20(603338%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb70.50%0A3.%20Hengli%20Hydraulic%20(601100%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb133.30%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fsissener-as.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
-  },
-  {
-    "clientName": "Sparinvest",
-    "slug": "sparinvest",
-    "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Sparinvest%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A2.%20Dingli%20Machinery%20(603338%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb70.50%0A3.%20Hengli%20Hydraulic%20(601100%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb133.30%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fsparinvest.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
   },
   {
     "clientName": "Storebrand Asset Management AS",
@@ -562,18 +418,6 @@
     "slug": "tareno-ag",
     "pickCount": 3,
     "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Tareno%20AG%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Macro%20%2F%20Strategy%20synthesis%20(Cross-asset)%20%E2%80%94%20Briefing%20note%2C%20n%2Fa%0A2.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A3.%20Dingli%20Machinery%20(603338%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb70.50%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Ftareno-ag.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
-  },
-  {
-    "clientName": "TBF Global Asset Management GmbH",
-    "slug": "tbf-global-asset-management-gmbh",
-    "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20TBF%20Global%20Asset%20Management%20GmbH%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A2.%20Dingli%20Machinery%20(603338%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb70.50%0A3.%20Hengli%20Hydraulic%20(601100%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb133.30%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Ftbf-global-asset-management-gmbh.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
-  },
-  {
-    "clientName": "Third Swedish National Pension Fund (AP3)",
-    "slug": "third-swedish-national-pension-fund-ap3",
-    "pickCount": 3,
-    "mailtoLink": "mailto:?subject=Top%203%20ideas%20for%20Third%20Swedish%20National%20Pension%20Fund%20(AP3)%20%E2%80%94%2021%20July%202026&body=Hi%2C%0A%0ABased%20on%20this%20week's%20Macquarie%20research%2C%20here%20are%20three%20ideas%20matched%20to%20your%20coverage%3A%0A%0A1.%20Weichai%20Power%20(000338%20CH%20%2F%202338%20HK)%20%E2%80%94%20Outperform%20%E2%80%94%20Marquee%20Buy%2C%20TSR%2062.0%25%20%2F%2044.6%25%0A2.%20Dingli%20Machinery%20(603338%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb70.50%0A3.%20Hengli%20Hydraulic%20(601100%20CH)%20%E2%80%94%20Outperform%2C%20TP%20Rmb133.30%0A%0AFull%20write-up%20with%20moat%20and%20thesis%20for%20each%20name%3A%20https%3A%2F%2Fairtable-broker-functions.netlify.app%2Fpublic-picks%2Fthird-swedish-national-pension-fund-ap3.html%0A%0AHappy%20to%20set%20up%20a%20call%20with%20the%20analyst%20on%20any%20of%20these.%0A%0ABest%2C%0AMathieu"
   },
   {
     "clientName": "UBS La Maison de Gestion",
