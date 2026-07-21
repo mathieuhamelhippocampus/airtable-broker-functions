@@ -142,6 +142,7 @@ async function main() {
   fs.mkdirSync("outreach-emails", { recursive: true });
 
   const missingEmail = [];
+  const manifest = [];
   let count = 0;
 
   for (const cl of clients) {
@@ -160,11 +161,14 @@ async function main() {
 
     fs.writeFileSync(path.join("public-picks", `${slug}.html`), renderClientHTML(clientName, top3));
     fs.writeFileSync(path.join("outreach-emails", `${slug}.eml`), renderEML(clientName, contactName, email, top3, pageUrl));
+    manifest.push({ clientName, slug, pickCount: top3.length });
     count++;
   }
 
+  manifest.sort((a, b) => a.clientName.localeCompare(b.clientName));
+  fs.writeFileSync(path.join("public-picks", "manifest.json"), JSON.stringify(manifest, null, 2));
   fs.writeFileSync(path.join("outreach-emails", "_missing-emails.txt"), missingEmail.join("\n"));
-  console.log(`Généré : ${count} pages HTML + ${count} emails .eml`);
+  console.log(`Généré : ${count} pages HTML + ${count} emails .eml + manifest.json (${manifest.length} entrées)`);
   console.log(`Clients sans email trouvé : ${missingEmail.length} (voir outreach-emails/_missing-emails.txt)`);
 }
 

@@ -1,0 +1,502 @@
+[
+  {
+    "clientName": "Acatis Investment",
+    "slug": "acatis-investment",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Acomea",
+    "slug": "acomea",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Algebris",
+    "slug": "algebris",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Allianz Global",
+    "slug": "allianz-global",
+    "pickCount": 3
+  },
+  {
+    "clientName": "AMF Pension",
+    "slug": "amf-pension",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Amiral Gestion S.A.",
+    "slug": "amiral-gestion-s-a",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Amplegest SA",
+    "slug": "amplegest-sa",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Arbejdsmarkedets Tillaegspension (ATP)",
+    "slug": "arbejdsmarkedets-tillaegspension-atp",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Athymis Gestion",
+    "slug": "athymis-gestion",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Azimut",
+    "slug": "azimut",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Banco BPM S.p.A.",
+    "slug": "banco-bpm-s-p-a",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Banque de France AM",
+    "slug": "banque-de-france-am",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Banque Degroof Petercam SA",
+    "slug": "banque-degroof-petercam-sa",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Banque du Luxembourg",
+    "slug": "banque-du-luxembourg",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Berenberg Bank",
+    "slug": "berenberg-bank",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Brock Milton Capital AB",
+    "slug": "brock-milton-capital-ab",
+    "pickCount": 3
+  },
+  {
+    "clientName": "C WorldWide Asset Management",
+    "slug": "c-worldwide-asset-management",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Candriam Belgium SA",
+    "slug": "candriam-belgium-sa",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Capital at Work Foyer Group",
+    "slug": "capital-at-work-foyer-group",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Cardano Asset Management N.V. (previously Actiam)",
+    "slug": "cardano-asset-management-n-v-previously-actiam",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Cariparma SpA (Credit Agricole Italia S.p.A)",
+    "slug": "cariparma-spa-credit-agricole-italia-s-p-a",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Compagnie Monegasque de Banque SAM",
+    "slug": "compagnie-monegasque-de-banque-sam",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Credit Agricole Corporate and Investment Bank",
+    "slug": "credit-agricole-corporate-and-investment-bank",
+    "pickCount": 3
+  },
+  {
+    "clientName": "CREDIT MUTUEL ASSET MANAGEMENT",
+    "slug": "credit-mutuel-asset-management",
+    "pickCount": 3
+  },
+  {
+    "clientName": "DECALIA ASSET MANAGEMENT SA",
+    "slug": "decalia-asset-management-sa",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Deka Investment GmbH",
+    "slug": "deka-investment-gmbh",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Delen Private Bank NV",
+    "slug": "delen-private-bank-nv",
+    "pickCount": 3
+  },
+  {
+    "clientName": "DJE",
+    "slug": "dje",
+    "pickCount": 3
+  },
+  {
+    "clientName": "DnB Asset Management AS",
+    "slug": "dnb-asset-management-as",
+    "pickCount": 3
+  },
+  {
+    "clientName": "DNCA Finance",
+    "slug": "dnca-finance",
+    "pickCount": 3
+  },
+  {
+    "clientName": "DNCA Investments",
+    "slug": "dnca-investments",
+    "pickCount": 3
+  },
+  {
+    "clientName": "DWS Group GmbH & CO KGaA",
+    "slug": "dws-group-gmbh-co-kgaa",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Econopolis",
+    "slug": "econopolis",
+    "pickCount": 3
+  },
+  {
+    "clientName": "EDRAM",
+    "slug": "edram",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Eika Kapitalforvaltning AS",
+    "slug": "eika-kapitalforvaltning-as",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Ellipsis AM",
+    "slug": "ellipsis-am",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Elo Mutual Pension Insurance Company",
+    "slug": "elo-mutual-pension-insurance-company",
+    "pickCount": 3
+  },
+  {
+    "clientName": "eQ Fund Management Company Ltd",
+    "slug": "eq-fund-management-company-ltd",
+    "pickCount": 3
+  },
+  {
+    "clientName": "EQT PARTNERS",
+    "slug": "eqt-partners",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Estela Capital",
+    "slug": "estela-capital",
+    "pickCount": 3
+  },
+  {
+    "clientName": "ETHENEA Independent Investors S.A.",
+    "slug": "ethenea-independent-investors-s-a",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Eurizon Capital SGR",
+    "slug": "eurizon-capital-sgr",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Fideuram - Intesa Sanpaolo Private Banking S.p.A.",
+    "slug": "fideuram-intesa-sanpaolo-private-banking-s-p-a",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Fideuram Asset Management SGR SpA",
+    "slug": "fideuram-asset-management-sgr-spa",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Financiere de l'Echiquier SA",
+    "slug": "financiere-de-l-echiquier-sa",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Finserve Nordic AB",
+    "slug": "finserve-nordic-ab",
+    "pickCount": 3
+  },
+  {
+    "clientName": "First Fondene AS",
+    "slug": "first-fondene-as",
+    "pickCount": 3
+  },
+  {
+    "clientName": "First Sentier Investors IM Limited",
+    "slug": "first-sentier-investors-im-limited",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Fourth Swedish National Pension Fund (AP4)",
+    "slug": "fourth-swedish-national-pension-fund-ap4",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Gay Lussac",
+    "slug": "gay-lussac",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Gestion Financiere Privee GEFIP",
+    "slug": "gestion-financiere-privee-gefip",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Gestron Asset Management SA",
+    "slug": "gestron-asset-management-sa",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Hamco AM SGIIC SA",
+    "slug": "hamco-am-sgiic-sa",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Handelsbanken Asset Management",
+    "slug": "handelsbanken-asset-management",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Haspa - Hamburger Sparkasse Private Banking",
+    "slug": "haspa-hamburger-sparkasse-private-banking",
+    "pickCount": 3
+  },
+  {
+    "clientName": "HMG Finance",
+    "slug": "hmg-finance",
+    "pickCount": 3
+  },
+  {
+    "clientName": "HOLBERG FONDSFORVALTNING AS",
+    "slug": "holberg-fondsforvaltning-as",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Indecap Fonder AB",
+    "slug": "indecap-fonder-ab",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Intesa Sanpaolo SpA",
+    "slug": "intesa-sanpaolo-spa",
+    "pickCount": 3
+  },
+  {
+    "clientName": "KBC",
+    "slug": "kbc",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Kempen Capital Management NV",
+    "slug": "kempen-capital-management-nv",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Laiqon",
+    "slug": "laiqon",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Lannebo Kapitalförvaltning AB",
+    "slug": "lannebo-kapitalforvaltning-ab",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Lazard Frères Gestion",
+    "slug": "lazard-freres-gestion",
+    "pickCount": 3
+  },
+  {
+    "clientName": "LFG ZEST",
+    "slug": "lfg-zest",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Mainfirst Affiliated Fund Managers GmbH",
+    "slug": "mainfirst-affiliated-fund-managers-gmbh",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Mandarine Gestion",
+    "slug": "mandarine-gestion",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Mansartis",
+    "slug": "mansartis",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Mediolanum International Funds Limited",
+    "slug": "mediolanum-international-funds-limited",
+    "pickCount": 3
+  },
+  {
+    "clientName": "MERKUR PRIVATBANK KGaA",
+    "slug": "merkur-privatbank-kgaa",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Mirova",
+    "slug": "mirova",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Montpensier Arbevel",
+    "slug": "montpensier-arbevel",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Nykredit Bank A/S",
+    "slug": "nykredit-bank-a-s",
+    "pickCount": 3
+  },
+  {
+    "clientName": "OBAM",
+    "slug": "obam",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Oddo BHF Asset Management SAS",
+    "slug": "oddo-bhf-asset-management-sas",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Ofi Invest Asset Management",
+    "slug": "ofi-invest-asset-management",
+    "pickCount": 3
+  },
+  {
+    "clientName": "OP Asset Management Ltd",
+    "slug": "op-asset-management-ltd",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Optigestion S.A.",
+    "slug": "optigestion-s-a",
+    "pickCount": 3
+  },
+  {
+    "clientName": "PFA Asset Management A/S",
+    "slug": "pfa-asset-management-a-s",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Platin Holdings S.à.r.l.",
+    "slug": "platin-holdings-s-a-r-l",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Prisma Investment Gmbh",
+    "slug": "prisma-investment-gmbh",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Pro BTP",
+    "slug": "pro-btp",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Quilvest Banque Privée",
+    "slug": "quilvest-banque-privee",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Santander Private Banking Gestion",
+    "slug": "santander-private-banking-gestion",
+    "pickCount": 3
+  },
+  {
+    "clientName": "SEB",
+    "slug": "seb",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Sienna Gestion",
+    "slug": "sienna-gestion",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Sissener AS",
+    "slug": "sissener-as",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Sparinvest",
+    "slug": "sparinvest",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Storebrand Asset Management AS",
+    "slug": "storebrand-asset-management-as",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Swedbank Robur Fonder AB",
+    "slug": "swedbank-robur-fonder-ab",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Sycomore Asset Management",
+    "slug": "sycomore-asset-management",
+    "pickCount": 3
+  },
+  {
+    "clientName": "SYDBANK AS",
+    "slug": "sydbank-as",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Syncicap",
+    "slug": "syncicap",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Tareno AG",
+    "slug": "tareno-ag",
+    "pickCount": 3
+  },
+  {
+    "clientName": "TBF Global Asset Management GmbH",
+    "slug": "tbf-global-asset-management-gmbh",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Third Swedish National Pension Fund (AP3)",
+    "slug": "third-swedish-national-pension-fund-ap3",
+    "pickCount": 3
+  },
+  {
+    "clientName": "UBS La Maison de Gestion",
+    "slug": "ubs-la-maison-de-gestion",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Unicredit",
+    "slug": "unicredit",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Universal Investment GmbH",
+    "slug": "universal-investment-gmbh",
+    "pickCount": 3
+  },
+  {
+    "clientName": "Value Tree",
+    "slug": "value-tree",
+    "pickCount": 3
+  }
+]

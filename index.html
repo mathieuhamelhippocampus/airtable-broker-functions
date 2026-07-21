@@ -174,6 +174,39 @@
     font-size: 14px;
   }
 
+  .picks-search {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: 'Figtree', sans-serif;
+    margin-bottom: 14px;
+    box-sizing: border-box;
+  }
+
+  .picks-list {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+
+  .picks-list .picks-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 16px;
+    border-top: 1px solid var(--line);
+    text-decoration: none;
+    color: var(--ink);
+    font-size: 14px;
+  }
+
+  .picks-list .picks-row:first-child { border-top: none; }
+  .picks-list .picks-row:hover { background: var(--bg); }
+  .picks-list .picks-row .count { font-size: 12px; color: var(--muted); }
+
   @media (max-width: 600px) {
     header { padding: 20px; }
     header h1 { font-size: 26px; }
@@ -199,12 +232,15 @@
   <div id="content" class="loading">Récupération des données Airtable…</div>
 
   <div id="top-picks-section" style="margin-top: 40px;"></div>
+
+  <div id="personalized-picks-section" style="margin-top: 40px;"></div>
 </main>
 
 <script>
 const FUNCTION_URL = "/.netlify/functions/get-daily-tasks";
 const TOP_PICKS_URL = "/.netlify/functions/get-top-picks";
 const TOP_PICKS_HTML_URL = "/top3-du-jour-21juillet.html";
+const PERSONALIZED_PICKS_MANIFEST_URL = "/public-picks/manifest.json";
 
 function formatDate(iso) {
   if (!iso) return "";
@@ -323,8 +359,47 @@ async function loadTopPicks() {
   }
 }
 
+function picksRowHTML(entry) {
+  return `
+    <a class="picks-row" href="/public-picks/${entry.slug}.html" target="_blank" data-name="${entry.clientName.toLowerCase()}">
+      <span>${entry.clientName}</span>
+      <span class="count">${entry.pickCount} pick(s) →</span>
+    </a>`;
+}
+
+async function loadPersonalizedPicks() {
+  try {
+    const res = await fetch(PERSONALIZED_PICKS_MANIFEST_URL);
+    if (!res.ok) return;
+    const manifest = await res.json();
+    if (!Array.isArray(manifest) || manifest.length === 0) return;
+
+    const html = `
+      <h2 style="font-family:'EB Garamond', serif; font-size:22px; color:var(--navy); margin-bottom:14px;">
+        Top 3 personnalisé par client
+        <span style="font-size:12px; margin-left:12px; color:var(--muted); font-family:'Figtree', sans-serif;">${manifest.length} page(s)</span>
+      </h2>
+      <input type="text" class="picks-search" id="picks-search" placeholder="Rechercher un client…">
+      <div class="picks-list" id="picks-list">
+        ${manifest.map(picksRowHTML).join("")}
+      </div>
+    `;
+    document.getElementById("personalized-picks-section").innerHTML = html;
+
+    document.getElementById("picks-search").addEventListener("input", (e) => {
+      const q = e.target.value.toLowerCase();
+      document.querySelectorAll("#picks-list .picks-row").forEach((row) => {
+        row.style.display = row.dataset.name.includes(q) ? "flex" : "none";
+      });
+    });
+  } catch (err) {
+    // silencieux : la section Top 3 personnalisé est secondaire, ne bloque pas le dashboard principal
+  }
+}
+
 load();
 loadTopPicks();
+loadPersonalizedPicks();
 </script>
 
 </body>
