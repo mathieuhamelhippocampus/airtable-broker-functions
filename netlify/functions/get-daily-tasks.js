@@ -90,9 +90,9 @@ export default async (req, context) => {
     // tasksByClient: clientId -> { clientName, reasons: [...] }
     const tasksByClient = new Map();
 
-    function addReason(clientId, clientName, reason, budget, tradingYTD) {
+    function addReason(clientId, clientName, reason, budget, tradingYTD, callsRemaining) {
       if (!tasksByClient.has(clientId)) {
-        tasksByClient.set(clientId, { clientName, budget: budget || 0, tradingYTD: tradingYTD || 0, reasons: [] });
+        tasksByClient.set(clientId, { clientName, budget: budget || 0, tradingYTD: tradingYTD || 0, callsRemaining: callsRemaining ?? null, reasons: [] });
       }
       tasksByClient.get(clientId).reasons.push(reason);
     }
@@ -131,7 +131,7 @@ export default async (req, context) => {
           eventName,
           eventDate,
           eventType,
-        }, budget, tradingYTD);
+        }, budget, tradingYTD, callsRemaining);
       }
     }
 
@@ -141,12 +141,13 @@ export default async (req, context) => {
       const retard = cf["Retard sur rythme"];
       const budget = cf["Annual Research Budget (KEUR)"] || 0;
       const tradingYTD = cf["Trading YTD (KEUR)"] || 0;
+      const callsRemaining = cf["Analyst Calls Remaining"] ?? null;
       if (typeof retard === "number" && retard > 0) {
         addReason(cl.id, firstName(cf["Management Company"]), {
           type: "retard",
           retard,
-          callsRemaining: cf["Analyst Calls Remaining"] ?? null,
-        }, budget, tradingYTD);
+          callsRemaining,
+        }, budget, tradingYTD, callsRemaining);
       }
     }
 
@@ -159,6 +160,7 @@ export default async (req, context) => {
         budget: data.budget || 0,
         tradingYTD: data.tradingYTD || 0,
         totalBudget: (data.budget || 0) + (data.tradingYTD || 0),
+        callsRemaining: data.callsRemaining,
         reasons: data.reasons,
       }))
       .filter((t) => t.budget > 0 || t.tradingYTD > TRADING_YTD_THRESHOLD);
