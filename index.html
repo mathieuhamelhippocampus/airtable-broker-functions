@@ -258,7 +258,7 @@ async function load() {
     const html = data.tasks.map(task => `
       <div class="client-card">
         <div class="head">
-          <div class="name">${task.clientName}${task.totalBudget > 0 ? ` <span class="tag budget" style="margin-left:8px;">${task.budget}K€ + ${task.tradingYTD}K€ = ${task.totalBudget}K€</span>` : ""}${task.callsRemaining !== null ? ` <span class="date" style="margin-left:8px;">· ${task.callsRemaining} appel(s) restant(s) au quota</span>` : ""}</div>
+          <div class="name">${task.clientName}${task.totalBudget > 0 ? ` <span class="tag budget" style="margin-left:8px;">${task.budget}K€ + ${task.tradingYTD}K€ = ${task.totalBudget}K€</span>` : ""}${task.callsRemaining !== null ? ` <span class="date" style="margin-left:8px; font-weight:400;">· ${task.callsRemaining} appel(s) restant(s) au quota</span>` : ""}</div>
           <div class="count">${task.reasons.length} raison(s)</div>
         </div>
         <div class="reasons">
