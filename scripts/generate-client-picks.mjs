@@ -116,6 +116,19 @@ function pickTop3(clientZones, clientSecteurs) {
   return { top3, matched: true };
 }
 
+function metricsRowHTML(p) {
+  if (!Array.isArray(p.metrics) || p.metrics.length === 0) return "";
+  return `
+      <div class="metrics-row">
+        ${p.metrics.map((m) => `
+        <div class="metric-box">
+          <div class="metric-label">${m.label}</div>
+          <div class="metric-value">${m.value}</div>
+          ${m.sub ? `<div class="metric-sub">${m.sub}</div>` : ""}
+        </div>`).join("")}
+      </div>`;
+}
+
 function renderClientHTML(clientName, top3) {
   const cardHTML = (p, i) => `
   <div class="card rank-${i+1}">
@@ -128,6 +141,7 @@ function renderClientHTML(clientName, top3) {
       <div class="card-tsr">${pickTSR(p)}</div>
     </div>
     <div class="card-right">
+      ${metricsRowHTML(p)}
       <ul class="pts">
         ${pickMoatLines(p).map((line) => `<li>${line}</li>`).join("")}
         <li><strong>Thesis —</strong> ${p.thesis}</li>
@@ -160,6 +174,11 @@ header .sub{font-size:12px;color:var(--muted);margin-top:6px;}
 .pill{display:inline-block;font-size:9px;text-transform:uppercase;padding:3px 8px;border-radius:2px;background:var(--blue-light);color:var(--blue);}
 .card-tsr{font-size:11px;color:var(--muted);margin-top:8px;}
 .card-right{padding:18px 20px;}
+.metrics-row{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:14px;}
+.metric-box{background:var(--off);border:1px solid var(--rule);border-radius:4px;padding:8px 6px;text-align:center;}
+.metric-label{font-size:9px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin-bottom:3px;}
+.metric-value{font-family:'EB Garamond',serif;font-size:15px;font-weight:600;color:var(--ink);line-height:1.1;}
+.metric-sub{font-size:9px;color:var(--muted);margin-top:2px;}
 ul.pts{list-style:none;display:flex;flex-direction:column;gap:8px;margin-bottom:10px;}
 ul.pts li{font-size:12px;line-height:1.5;}
 .card-source{font-size:9.5px;color:var(--muted);}

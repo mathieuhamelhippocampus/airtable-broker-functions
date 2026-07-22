@@ -22,6 +22,11 @@ header .sub{font-size:12px;color:var(--muted);margin-top:6px;}
 .pill{display:inline-block;font-size:9px;text-transform:uppercase;padding:3px 8px;border-radius:2px;background:var(--blue-light);color:var(--blue);}
 .card-tsr{font-size:11px;color:var(--muted);margin-top:8px;}
 .card-right{padding:18px 20px;}
+.metrics-row{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:14px;}
+.metric-box{background:var(--off);border:1px solid var(--rule);border-radius:4px;padding:8px 6px;text-align:center;}
+.metric-label{font-size:9px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin-bottom:3px;}
+.metric-value{font-family:'EB Garamond',serif;font-size:15px;font-weight:600;color:var(--ink);line-height:1.1;}
+.metric-sub{font-size:9px;color:var(--muted);margin-top:2px;}
 ul.pts{list-style:none;display:flex;flex-direction:column;gap:8px;margin-bottom:10px;}
 ul.pts li{font-size:12px;line-height:1.5;}
 .card-source{font-size:9.5px;color:var(--muted);}
@@ -41,6 +46,30 @@ footer{background:var(--off);border-top:1px solid var(--rule);padding:16px 36px;
       <div class="card-tsr">Rmb2,060 (vs Rmb1,209 current)</div>
     </div>
     <div class="card-right">
+      
+      <div class="metrics-row">
+        
+        <div class="metric-box">
+          <div class="metric-label">Rating</div>
+          <div class="metric-value">OP</div>
+          
+        </div>
+        <div class="metric-box">
+          <div class="metric-label">TP</div>
+          <div class="metric-value">Rmb2,060</div>
+          <div class="metric-sub">vs Rmb1,209 current</div>
+        </div>
+        <div class="metric-box">
+          <div class="metric-label">GPU rental prices</div>
+          <div class="metric-value">~3x</div>
+          <div class="metric-sub">past 2 quarters</div>
+        </div>
+        <div class="metric-box">
+          <div class="metric-label">Preferred names</div>
+          <div class="metric-value">1 of 7</div>
+          <div class="metric-sub">AI infra chain</div>
+        </div>
+      </div>
       <ul class="pts">
         <li><strong>Structural drivers —</strong> One of a handful of domestic AI chip vendors (with Huawei, MetaX, Iluvatar, Moore Threads) that showcased Supernode-class interconnect solutions at WAIC 2026. GPU rental prices in the secondary market have risen nearly 3x over the past two quarters, evidencing structural compute scarcity.</li><li><strong>Competitive advantage —</strong> One of Macquarie's 7 preferred names in the domestic AI infrastructure chain (with Biren Tech, Iluvatar, MetaX, Innolight, Alibaba, GDS).</li>
         <li><strong>Thesis —</strong> Direct beneficiary of China's compute-shortage-driven AI capex cycle.</li>
@@ -58,6 +87,30 @@ footer{background:var(--off);border-top:1px solid var(--rule);padding:16px 36px;
       <div class="card-tsr">Rmb1,800 (vs Rmb1,004 current)</div>
     </div>
     <div class="card-right">
+      
+      <div class="metrics-row">
+        
+        <div class="metric-box">
+          <div class="metric-label">Rating</div>
+          <div class="metric-value">OP</div>
+          <div class="metric-sub">Top Pick</div>
+        </div>
+        <div class="metric-box">
+          <div class="metric-label">TP</div>
+          <div class="metric-value">Rmb1,800</div>
+          <div class="metric-sub">vs Rmb1,004 current</div>
+        </div>
+        <div class="metric-box">
+          <div class="metric-label">Huawei Atlas 950</div>
+          <div class="metric-value">1,024</div>
+          <div class="metric-sub">Ascend processors/cabinet set</div>
+        </div>
+        <div class="metric-box">
+          <div class="metric-label">Nvidia comparison</div>
+          <div class="metric-value">72</div>
+          <div class="metric-sub">processors/rack today</div>
+        </div>
+      </div>
       <ul class="pts">
         <li><strong>Structural drivers —</strong> Macquarie's explicit top pick in the domestic AI-infrastructure chain, ahead of Cambricon, Biren Tech, Iluvatar, MetaX, Alibaba and GDS. The unit of competition is shifting from the individual chip to the 'supernode': Huawei's Atlas 950 packs 1,024 Ascend processors versus ~72 per rack for Nvidia today. A larger cluster can compensate for weaker single-chip performance, benefiting high-speed networking and optical-interconnect providers.</li><li><strong>Competitive advantage —</strong> Optical-interconnect leadership positions it to benefit regardless of which domestic accelerator vendor wins the supernode race.</li>
         <li><strong>Thesis —</strong> A picks-and-shovels play on the shift in competition from individual chip to full compute cluster.</li>
@@ -75,6 +128,30 @@ footer{background:var(--off);border-top:1px solid var(--rule);padding:16px 36px;
       <div class="card-tsr">TP HK$35.60</div>
     </div>
     <div class="card-right">
+      
+      <div class="metrics-row">
+        
+        <div class="metric-box">
+          <div class="metric-label">Rating</div>
+          <div class="metric-value">OP</div>
+          
+        </div>
+        <div class="metric-box">
+          <div class="metric-label">TP</div>
+          <div class="metric-value">HK$35.60</div>
+          
+        </div>
+        <div class="metric-box">
+          <div class="metric-label">TSR</div>
+          <div class="metric-value">40.7%</div>
+          
+        </div>
+        <div class="metric-box">
+          <div class="metric-label">Rev CAGR 3Y</div>
+          <div class="metric-value">8%</div>
+          
+        </div>
+      </div>
       <ul class="pts">
         <li><strong>Moat —</strong> Roughly half of the US primary-loop liquid-cooling market plus early actuator and lead-screw programmes for humanoid robots.</li>
         <li><strong>Thesis —</strong> A rare name levered to both AI-datacentre cooling demand and humanoid-robot component demand simultaneously.</li>
