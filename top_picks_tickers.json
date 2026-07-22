@@ -1,0 +1,92 @@
+[
+  {
+    "id": "weichai-power",
+    "name": "Weichai Power",
+    "ticker": "000338 CH / 2338 HK"
+  },
+  {
+    "id": "dingli-machinery",
+    "name": "Dingli Machinery",
+    "ticker": "603338 CH"
+  },
+  {
+    "id": "hengli-hydraulic",
+    "name": "Hengli Hydraulic",
+    "ticker": "601100 CH"
+  },
+  {
+    "id": "sany-heavy",
+    "name": "Sany Heavy",
+    "ticker": "600031 CH / 6031 HK"
+  },
+  {
+    "id": "airtac",
+    "name": "AirTAC",
+    "ticker": "1590 TT"
+  },
+  {
+    "id": "lhds",
+    "name": "LHDS",
+    "ticker": "688017 CH"
+  },
+  {
+    "id": "zhejiang-sanhua",
+    "name": "Zhejiang Sanhua",
+    "ticker": "2050 HK"
+  },
+  {
+    "id": "cambricon",
+    "name": "Cambricon",
+    "ticker": "688256 CH"
+  },
+  {
+    "id": "innolight",
+    "name": "Innolight",
+    "ticker": "300308 CH"
+  },
+  {
+    "id": "apr",
+    "name": "APR",
+    "ticker": "278470 KS"
+  },
+  {
+    "id": "amorepacific",
+    "name": "Amorepacific",
+    "ticker": "090430 KS"
+  },
+  {
+    "id": "pumtech-korea",
+    "name": "Pumtech Korea",
+    "ticker": "251970 KS"
+  },
+  {
+    "id": "titan",
+    "name": "Titan",
+    "ticker": "TTAN IN"
+  },
+  {
+    "id": "samsung-biologics",
+    "name": "Samsung Biologics",
+    "ticker": "207940 KS"
+  },
+  {
+    "id": "neway-valve",
+    "name": "Neway Valve (Suzhou)",
+    "ticker": "603699 CH"
+  },
+  {
+    "id": "frontken",
+    "name": "Frontken",
+    "ticker": "FRCB MK"
+  },
+  {
+    "id": "vitrox",
+    "name": "ViTrox",
+    "ticker": "VITRO MK"
+  },
+  {
+    "id": "uwc",
+    "name": "UWC",
+    "ticker": "UWC MK"
+  }
+]
