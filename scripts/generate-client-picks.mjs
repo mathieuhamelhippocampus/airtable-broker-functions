@@ -8,6 +8,43 @@ const TABLE_CLIENTS = "Clients - Investment Universe";
 const SITE_URL = "https://airtable-broker-functions.netlify.app";
 const EMAIL_FIELD_CANDIDATES = ["Email", "Contact Email", "E-mail", "Email Address"];
 
+function toBloombergTicker(rawTicker) {
+  const parts = rawTicker.split("/").map(p => p.trim());
+  const hk = parts.find(p => p.endsWith("HK"));
+  const primary = hk || parts[0];
+  return `${primary} Equity`;
+}
+
+const bloombergByTicker = {};
+JSON.parse(fs.readFileSync("data/bloomberg-metrics.json", "utf-8")).forEach(b => {
+  bloombergByTicker[b.ticker] = b;
+});
+
+function bloombergBlockHTML(p) {
+  const bTicker = toBloombergTicker(p.ticker);
+  const b = bloombergByTicker[bTicker];
+  if (!b) return "";
+
+  const chartFile = b.chart_revenue ? b.chart_revenue.split("/").pop() : null;
+  const chartImg = chartFile
+    ? `<img src="/public-picks/charts/${chartFile}" alt="Revenue TTM ${p.name}" style="width:100%; max-width:420px; margin-top:10px; border-radius:3px;">`
+    : "";
+
+  return `
+    <div style="margin-top:14px; padding-top:14px; border-top:1px dashed var(--rule);">
+      <div class="section-label">Bloomberg market data — ${b.name}</div>
+      <div class="metrics-row" style="grid-template-columns: repeat(4, 1fr);">
+        <div class="metric-box"><div class="metric-label">P/E</div><div class="metric-value">${b.pe}x</div></div>
+        <div class="metric-box"><div class="metric-label">P/B</div><div class="metric-value">${b.pb}x</div></div>
+        <div class="metric-box"><div class="metric-label">Rev TTM</div><div class="metric-value">${b.rev_usd_m}M$</div></div>
+        <div class="metric-box"><div class="metric-label">Rev CAGR 3Y</div><div class="metric-value">${b.croissance_histo_ca_pct}%</div></div>
+        <div class="metric-box"><div class="metric-label">Impl. EPS growth</div><div class="metric-value">${b.croissance_implicite_bpa_pct}%</div></div>
+        <div class="metric-box"><div class="metric-label">CEO perf.</div><div class="metric-value">${b.performance_ceo_annualisee_pct === "N/A" ? "N/A" : b.performance_ceo_annualisee_pct + "%/an"}</div></div>
+      </div>
+      ${chartImg}
+    </div>`;
+}
+
 if (!AIRTABLE_TOKEN || !AIRTABLE_BASE_ID) {
   console.error("AIRTABLE_TOKEN / AIRTABLE_BASE_ID manquants dans l'environnement. Fais `netlify env:pull` ou exporte-les avant de lancer ce script.");
   process.exit(1);
@@ -147,6 +184,7 @@ function renderClientHTML(clientName, top3) {
         <li><strong>Thesis —</strong> ${p.thesis}</li>
       </ul>
       <div class="card-source">${p.source}</div>
+      ${bloombergBlockHTML(p)}
     </div>
   </div>`;
 
@@ -179,6 +217,7 @@ header .sub{font-size:12px;color:var(--muted);margin-top:6px;}
 .metric-label{font-size:9px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin-bottom:3px;}
 .metric-value{font-family:'EB Garamond',serif;font-size:15px;font-weight:600;color:var(--ink);line-height:1.1;}
 .metric-sub{font-size:9px;color:var(--muted);margin-top:2px;}
+.section-label{font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:600;margin-bottom:8px;}
 ul.pts{list-style:none;display:flex;flex-direction:column;gap:8px;margin-bottom:10px;}
 ul.pts li{font-size:12px;line-height:1.5;}
 .card-source{font-size:9.5px;color:var(--muted);}

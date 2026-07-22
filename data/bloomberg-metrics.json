@@ -9,7 +9,8 @@
     "rev_usd_m": 30,
     "croissance_histo_ca_pct": 7,
     "croissance_implicite_bpa_pct": "N/A",
-    "performance_ceo_annualisee_pct": "N/A"
+    "performance_ceo_annualisee_pct": "N/A",
+    "chart_revenue": "data/charts/2338_HK_Equity_revenue.png"
   },
   {
     "ticker": "603338 CH Equity",
@@ -21,7 +22,8 @@
     "rev_usd_m": 1,
     "croissance_histo_ca_pct": 18,
     "croissance_implicite_bpa_pct": -0.8,
-    "performance_ceo_annualisee_pct": "N/A"
+    "performance_ceo_annualisee_pct": "N/A",
+    "chart_revenue": "data/charts/603338_CH_Equity_revenue.png"
   },
   {
     "ticker": "601100 CH Equity",
@@ -33,7 +35,8 @@
     "rev_usd_m": 2,
     "croissance_histo_ca_pct": 10,
     "croissance_implicite_bpa_pct": 5.7,
-    "performance_ceo_annualisee_pct": "N/A"
+    "performance_ceo_annualisee_pct": "N/A",
+    "chart_revenue": "data/charts/601100_CH_Equity_revenue.png"
   },
   {
     "ticker": "6031 HK Equity",
@@ -45,7 +48,8 @@
     "rev_usd_m": 11,
     "croissance_histo_ca_pct": 4,
     "croissance_implicite_bpa_pct": -0.1,
-    "performance_ceo_annualisee_pct": "N/A"
+    "performance_ceo_annualisee_pct": "N/A",
+    "chart_revenue": "data/charts/6031_HK_Equity_revenue.png"
   },
   {
     "ticker": "1590 TT Equity",
@@ -57,7 +61,8 @@
     "rev_usd_m": 1,
     "croissance_histo_ca_pct": 10,
     "croissance_implicite_bpa_pct": 2.9,
-    "performance_ceo_annualisee_pct": "N/A"
+    "performance_ceo_annualisee_pct": "N/A",
+    "chart_revenue": "data/charts/1590_TT_Equity_revenue.png"
   },
   {
     "ticker": "688017 CH Equity",
@@ -69,7 +74,8 @@
     "rev_usd_m": 0,
     "croissance_histo_ca_pct": 18,
     "croissance_implicite_bpa_pct": "N/A",
-    "performance_ceo_annualisee_pct": "N/A"
+    "performance_ceo_annualisee_pct": "N/A",
+    "chart_revenue": "data/charts/688017_CH_Equity_revenue.png"
   },
   {
     "ticker": "2050 HK Equity",
@@ -81,7 +87,8 @@
     "rev_usd_m": 4,
     "croissance_histo_ca_pct": 8,
     "croissance_implicite_bpa_pct": "N/A",
-    "performance_ceo_annualisee_pct": "N/A"
+    "performance_ceo_annualisee_pct": "N/A",
+    "chart_revenue": "data/charts/2050_HK_Equity_revenue.png"
   },
   {
     "ticker": "688256 CH Equity",
@@ -93,7 +100,8 @@
     "rev_usd_m": 1,
     "croissance_histo_ca_pct": 131,
     "croissance_implicite_bpa_pct": 12.8,
-    "performance_ceo_annualisee_pct": "N/A"
+    "performance_ceo_annualisee_pct": "N/A",
+    "chart_revenue": "data/charts/688256_CH_Equity_revenue.png"
   },
   {
     "ticker": "300308 CH Equity",
@@ -105,7 +113,8 @@
     "rev_usd_m": 8,
     "croissance_histo_ca_pct": 76,
     "croissance_implicite_bpa_pct": 2.9,
-    "performance_ceo_annualisee_pct": "N/A"
+    "performance_ceo_annualisee_pct": "N/A",
+    "chart_revenue": "data/charts/300308_CH_Equity_revenue.png"
   },
   {
     "ticker": "278470 KS Equity",
@@ -117,7 +126,8 @@
     "rev_usd_m": 1,
     "croissance_histo_ca_pct": 58,
     "croissance_implicite_bpa_pct": 2.3,
-    "performance_ceo_annualisee_pct": "N/A"
+    "performance_ceo_annualisee_pct": "N/A",
+    "chart_revenue": "data/charts/278470_KS_Equity_revenue.png"
   },
   {
     "ticker": "090430 KS Equity",
@@ -129,7 +139,8 @@
     "rev_usd_m": 3,
     "croissance_histo_ca_pct": 4,
     "croissance_implicite_bpa_pct": 0.9,
-    "performance_ceo_annualisee_pct": "N/A"
+    "performance_ceo_annualisee_pct": "N/A",
+    "chart_revenue": "data/charts/090430_KS_Equity_revenue.png"
   },
   {
     "ticker": "251970 KS Equity",
@@ -141,7 +152,8 @@
     "rev_usd_m": 0,
     "croissance_histo_ca_pct": 13,
     "croissance_implicite_bpa_pct": "N/A",
-    "performance_ceo_annualisee_pct": "N/A"
+    "performance_ceo_annualisee_pct": "N/A",
+    "chart_revenue": "data/charts/251970_KS_Equity_revenue.png"
   },
   {
     "ticker": "TTAN IN Equity",
@@ -153,7 +165,8 @@
     "rev_usd_m": 8,
     "croissance_histo_ca_pct": 25,
     "croissance_implicite_bpa_pct": 9.4,
-    "performance_ceo_annualisee_pct": "N/A"
+    "performance_ceo_annualisee_pct": "N/A",
+    "chart_revenue": "data/charts/TTAN_IN_Equity_revenue.png"
   },
   {
     "ticker": "207940 KS Equity",
@@ -165,7 +178,8 @@
     "rev_usd_m": 3,
     "croissance_histo_ca_pct": 10,
     "croissance_implicite_bpa_pct": 4.5,
-    "performance_ceo_annualisee_pct": "N/A"
+    "performance_ceo_annualisee_pct": "N/A",
+    "chart_revenue": "data/charts/207940_KS_Equity_revenue.png"
   },
   {
     "ticker": "603699 CH Equity",
@@ -177,7 +191,8 @@
     "rev_usd_m": 1,
     "croissance_histo_ca_pct": 20,
     "croissance_implicite_bpa_pct": "N/A",
-    "performance_ceo_annualisee_pct": "N/A"
+    "performance_ceo_annualisee_pct": "N/A",
+    "chart_revenue": "data/charts/603699_CH_Equity_revenue.png"
   },
   {
     "ticker": "FRCB MK Equity",
@@ -189,7 +204,8 @@
     "rev_usd_m": 0,
     "croissance_histo_ca_pct": 10,
     "croissance_implicite_bpa_pct": "N/A",
-    "performance_ceo_annualisee_pct": "N/A"
+    "performance_ceo_annualisee_pct": "N/A",
+    "chart_revenue": "data/charts/FRCB_MK_Equity_revenue.png"
   },
   {
     "ticker": "VITRO MK Equity",
@@ -201,7 +217,8 @@
     "rev_usd_m": 0,
     "croissance_histo_ca_pct": 14,
     "croissance_implicite_bpa_pct": "N/A",
-    "performance_ceo_annualisee_pct": "N/A"
+    "performance_ceo_annualisee_pct": "N/A",
+    "chart_revenue": "data/charts/VITRO_MK_Equity_revenue.png"
   },
   {
     "ticker": "UWC MK Equity",
@@ -213,6 +230,7 @@
     "rev_usd_m": 0,
     "croissance_histo_ca_pct": 16,
     "croissance_implicite_bpa_pct": "N/A",
-    "performance_ceo_annualisee_pct": "N/A"
+    "performance_ceo_annualisee_pct": "N/A",
+    "chart_revenue": "data/charts/UWC_MK_Equity_revenue.png"
   }
 ]
