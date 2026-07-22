@@ -167,7 +167,12 @@ function metricsRowHTML(p) {
 }
 
 function renderClientHTML(clientName, top3) {
-  const cardHTML = (p, i) => `
+  const cardHTML = (p, i) => {
+    const catalystsHTML = p.catalysts && p.catalysts.length ? `
+    <div class="section-label">Catalysts</div>
+    <ul class="pts">${p.catalysts.map(c => `<li>${c}</li>`).join("")}</ul>` : "";
+
+    return `
   <div class="card rank-${i+1}">
     <div class="card-left">
       <div class="rank-number">0${i+1}</div>
@@ -181,12 +186,16 @@ function renderClientHTML(clientName, top3) {
       ${metricsRowHTML(p)}
       <ul class="pts">
         ${pickMoatLines(p).map((line) => `<li>${line}</li>`).join("")}
+      </ul>
+      ${catalystsHTML}
+      <ul class="pts">
         <li><strong>Thesis —</strong> ${p.thesis}</li>
       </ul>
       <div class="card-source">${p.source}</div>
       ${bloombergBlockHTML(p)}
     </div>
   </div>`;
+  };
 
   return `<!DOCTYPE html>
 <html lang="en"><head><meta charset="UTF-8">
