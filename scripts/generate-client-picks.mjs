@@ -71,15 +71,30 @@ function pickTSRLine(p) {
   return `${p.rating}, ${pickTSR(p)}`;
 }
 
+// Score de conviction (croissance CA 3Y - BPA implicite à 50%, TSR à 40%, P/B à 10%),
+// calculé par scripts/compute-conviction-scores.mjs. Fallback sur tsrValue si absent
+// (pick ajouté après le dernier calcul, ou script jamais lancé).
+let CONVICTION_SCORES = {};
+try {
+  CONVICTION_SCORES = JSON.parse(fs.readFileSync("data/conviction-scores.json", "utf-8"));
+} catch {
+  console.warn("data/conviction-scores.json introuvable — fallback sur tsrValue pour le classement. Lance `node scripts/compute-conviction-scores.mjs` d'abord.");
+}
+
+function convictionScore(p) {
+  const s = CONVICTION_SCORES[p.id];
+  return typeof s === "number" && !isNaN(s) ? s : (p.tsrValue ?? -Infinity);
+}
+
 function pickTop3(clientZones, clientSecteurs) {
-  const byTsrDesc = (a, b) => (b.tsrValue ?? -Infinity) - (a.tsrValue ?? -Infinity);
+  const byScoreDesc = (a, b) => convictionScore(b) - convictionScore(a);
 
   const exact = TOP_PICKS_POOL
     .filter(p => zoneMatch(p.countries, clientZones) && secteurMatch(p.secteurs, clientSecteurs))
-    .sort(byTsrDesc);
+    .sort(byScoreDesc);
   const sectorOnly = TOP_PICKS_POOL
     .filter(p => !exact.includes(p) && secteurMatch(p.secteurs, clientSecteurs))
-    .sort(byTsrDesc);
+    .sort(byScoreDesc);
 
   if (exact.length === 0 && sectorOnly.length === 0) {
     return { top3: [], matched: false };
@@ -87,7 +102,7 @@ function pickTop3(clientZones, clientSecteurs) {
 
   const rest = TOP_PICKS_POOL
     .filter(p => !exact.includes(p) && !sectorOnly.includes(p))
-    .sort(byTsrDesc);
+    .sort(byScoreDesc);
 
   const combined = [...exact, ...sectorOnly, ...rest];
   const seen = new Set();
