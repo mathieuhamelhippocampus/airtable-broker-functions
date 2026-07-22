@@ -33,13 +33,12 @@ function bloombergBlockHTML(p) {
   return `
     <div style="margin-top:14px; padding-top:14px; border-top:1px dashed var(--rule);">
       <div class="section-label">Bloomberg market data — ${b.name}</div>
-      <div class="metrics-row" style="grid-template-columns: repeat(4, 1fr);">
+      <div class="metrics-row" style="grid-template-columns: repeat(5, 1fr);">
         <div class="metric-box"><div class="metric-label">P/E</div><div class="metric-value">${b.pe}x</div></div>
         <div class="metric-box"><div class="metric-label">P/B</div><div class="metric-value">${b.pb}x</div></div>
         <div class="metric-box"><div class="metric-label">Rev TTM</div><div class="metric-value">${b.rev_usd_m}M$</div></div>
         <div class="metric-box"><div class="metric-label">Rev CAGR 3Y</div><div class="metric-value">${b.croissance_histo_ca_pct}%</div></div>
         <div class="metric-box"><div class="metric-label">Impl. EPS growth</div><div class="metric-value">${b.croissance_implicite_bpa_pct}%</div></div>
-        <div class="metric-box"><div class="metric-label">CEO perf.</div><div class="metric-value">${b.performance_ceo_annualisee_pct === "N/A" ? "N/A" : b.performance_ceo_annualisee_pct + "%/an"}</div></div>
       </div>
       ${chartImg}
     </div>`;
@@ -168,9 +167,9 @@ function metricsRowHTML(p) {
 
 function renderClientHTML(clientName, top3) {
   const cardHTML = (p, i) => {
-    const catalystsHTML = p.catalysts && p.catalysts.length ? `
-    <div class="section-label">Catalysts</div>
-    <ul class="pts">${p.catalysts.map(c => `<li>${c}</li>`).join("")}</ul>` : "";
+    const catalystsLi = p.catalysts && p.catalysts.length
+      ? `<li><strong>Catalysts —</strong> ${p.catalysts.join(" ")}</li>`
+      : "";
 
     return `
   <div class="card rank-${i+1}">
@@ -186,8 +185,8 @@ function renderClientHTML(clientName, top3) {
       ${metricsRowHTML(p)}
       <ul class="pts">
         ${pickMoatLines(p).map((line) => `<li>${line}</li>`).join("")}
+        ${catalystsLi}
       </ul>
-      ${catalystsHTML}
       <ul class="pts">
         <li><strong>Thesis —</strong> ${p.thesis}</li>
       </ul>
