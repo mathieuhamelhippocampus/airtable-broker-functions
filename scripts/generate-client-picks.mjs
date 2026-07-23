@@ -84,9 +84,10 @@ function firstName(v) { return Array.isArray(v) ? (v[0] || "") : (v || ""); }
 function pickTSR(p) {
   if (p.tsr) return p.tsr;
   if (Array.isArray(p.metrics)) {
-    const m = p.metrics.find((x) => x.label === "TSR") || p.metrics.find((x) => x.label === "TP");
+    const m = p.metrics.find((x) => x && x.label === "TSR") || p.metrics.find((x) => x && x.label === "TP");
     if (m) return m.sub ? `${m.value} (${m.sub})` : m.value;
   }
+  if (typeof p.tsrValue === "number") return `${p.tsrValue}%`;
   return "n/a";
 }
 
@@ -154,6 +155,16 @@ function pickTop3(clientZones, clientSecteurs) {
 
 function metricsRowHTML(p) {
   if (!Array.isArray(p.metrics) || p.metrics.length === 0) return "";
+
+  // Deux formats coexistent dans le pool : objets {label, value, sub} (grille de
+  // cases compactes) ou chaînes descriptives complètes (liste à puces, comme
+  // Structural Drivers) — on détecte le format selon le type du premier élément.
+  if (typeof p.metrics[0] === "string") {
+    return `
+      <div class="section-label">Key metrics</div>
+      <ul class="pts">${p.metrics.map((m) => `<li>${m}</li>`).join("")}</ul>`;
+  }
+
   return `
       <div class="metrics-row">
         ${p.metrics.map((m) => `
