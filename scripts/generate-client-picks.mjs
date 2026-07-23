@@ -165,7 +165,7 @@ function metricsRowHTML(p) {
       </div>`;
 }
 
-function renderClientHTML(clientName, top3) {
+function renderClientHTML(clientName, gerantName, top3) {
   const cardHTML = (p, i) => {
     const catalystsLi = p.catalysts && p.catalysts.length
       ? `<li><strong>Catalysts —</strong> ${p.catalysts.join(" ")}</li>`
@@ -232,7 +232,7 @@ ul.pts li{font-size:12px;line-height:1.5;}
 footer{background:var(--off);border-top:1px solid var(--rule);padding:16px 36px;font-size:10px;color:var(--muted);}
 </style></head><body>
 <div class="topbar"><span>Kepler Cheuvreux — Institutional Equity Sales</span><span>Top 3 Ideas — 21 July 2026</span></div>
-<header><h1>Top 3 for ${clientName}</h1><div class="sub">Personalised from Macquarie Research notes published 21 July 2026, matched to your sector and geography mandate.</div></header>
+<header><h1>Top 3 for ${gerantName ? `${gerantName} (${clientName})` : clientName}</h1><div class="sub">Personalised from Macquarie Research notes published 21 July 2026, matched to your sector and geography mandate.</div></header>
 <div class="main">
 ${top3.map(cardHTML).join("")}
 </div>
@@ -242,7 +242,7 @@ ${top3.map(cardHTML).join("")}
 
 function renderEML(clientName, contactName, email, top3, pageUrl) {
   const to = email || "TODO@fill-in-manually.com";
-  const subject = `Top 3 ideas for ${clientName} — 21 July 2026`;
+  const subject = `Top 3 ideas for ${contactName ? `${contactName} (${clientName})` : clientName} — 21 July 2026`;
   const greeting = contactName ? `Hi ${contactName.split(" ")[0]},` : "Hi,";
   const body = `${greeting}
 
@@ -291,7 +291,7 @@ async function main() {
   for (const cl of clients) {
     const cf = cl.fields || {};
     const clientName = firstName(cf["Management Company"]) || cl.fields["Name"] || "Client";
-    const contactName = cf["Contact Name"] || cf["Contact"] || "";
+    const contactName = cf["Contact (name & role)"] || cf["Contact Name"] || cf["Contact"] || "";
     let email = "";
     for (const f of EMAIL_FIELD_CANDIDATES) { if (cf[f]) { email = cf[f]; break; } }
 
@@ -304,14 +304,16 @@ async function main() {
 
     if (!email) missingEmail.push(clientName);
 
-    const slug = slugify(clientName);
+    const gerantSlug = contactName ? slugify(contactName) : cl.id;
+    const slug = slugify(`${clientName}-${gerantSlug}`);
     const pageUrl = `${SITE_URL}/public-picks/${slug}.html`;
     const mailtoLink = renderMailtoLink(clientName, top3, pageUrl);
 
-    fs.writeFileSync(path.join("public-picks", `${slug}.html`), renderClientHTML(clientName, top3));
+    fs.writeFileSync(path.join("public-picks", `${slug}.html`), renderClientHTML(clientName, contactName, top3));
     fs.writeFileSync(path.join("outreach-emails", `${slug}.eml`), renderEML(clientName, contactName, email, top3, pageUrl));
     manifest.push({
       clientName,
+      gerantName: contactName,
       slug,
       pickCount: top3.length,
       mailtoLink,

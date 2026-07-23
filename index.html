@@ -265,24 +265,26 @@ function reasonHTML(r) {
     </div>`;
 }
 
-function pickPreviewHTML(entry) {
-  if (!entry || !entry.preview || entry.preview.length === 0) return "";
-  const rows = entry.preview.map(p => `
-    <div style="display:flex; justify-content:space-between; font-size:12.5px; padding:6px 0; border-top:1px solid var(--line);">
-      <span><strong>${p.name}</strong> <span style="color:var(--muted);">${p.ticker}</span></span>
-      <span style="color:var(--muted);">${p.rating}</span>
-    </div>`).join("");
-  return `
-    <div style="margin-top:10px; padding-top:10px; border-top:1px dashed var(--line);">
-      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:2px;">
-        <span style="font-size:11px; letter-spacing:0.05em; text-transform:uppercase; color:var(--muted);">Top 3 personnalisé</span>
-        <span>
-          <a href="/public-picks/${entry.slug}.html" target="_blank" style="font-size:12px; color:var(--navy); text-decoration:none; margin-right:10px;">Full page →</a>
-          <a href="${entry.mailtoLink}" style="font-size:12px; color:var(--navy); text-decoration:none;">✉ Email</a>
-        </span>
-      </div>
-      ${rows}
-    </div>`;
+function pickPreviewHTML(entries) {
+  if (!entries || entries.length === 0) return "";
+  return entries.map(entry => {
+    const rows = (entry.preview || []).map(p => `
+      <div style="display:flex; justify-content:space-between; font-size:12.5px; padding:6px 0; border-top:1px solid var(--line);">
+        <span><strong>${p.name}</strong> <span style="color:var(--muted);">${p.ticker}</span></span>
+        <span style="color:var(--muted);">${p.rating}</span>
+      </div>`).join("");
+    return `
+      <div style="margin-top:10px; padding-top:10px; border-top:1px dashed var(--line);">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:2px;">
+          <span style="font-size:11px; letter-spacing:0.05em; text-transform:uppercase; color:var(--muted);">Top 3 personnalisé${entry.gerantName ? ` — ${entry.gerantName}` : ""}</span>
+          <span>
+            <a href="/public-picks/${entry.slug}.html" target="_blank" style="font-size:12px; color:var(--navy); text-decoration:none; margin-right:10px;">Full page →</a>
+            <a href="${entry.mailtoLink}" style="font-size:12px; color:var(--navy); text-decoration:none;">✉ Email</a>
+          </span>
+        </div>
+        ${rows}
+      </div>`;
+  }).join("");
 }
 
 function normalizeName(name) {
@@ -298,11 +300,15 @@ async function load() {
 
     const data = await tasksRes.json();
 
-    let picksByName = {};
+    let picksByHouse = {};
     if (picksRes && picksRes.ok) {
       const manifest = await picksRes.json();
       if (Array.isArray(manifest)) {
-        manifest.forEach(entry => { picksByName[normalizeName(entry.clientName)] = entry; });
+        manifest.forEach(entry => {
+          const key = normalizeName(entry.clientName);
+          if (!picksByHouse[key]) picksByHouse[key] = [];
+          picksByHouse[key].push(entry);
+        });
       }
     }
 
@@ -328,7 +334,7 @@ async function load() {
     }
 
     const html = data.tasks.map(task => {
-      const pickEntry = picksByName[normalizeName(task.clientName)];
+      const pickEntries = picksByHouse[normalizeName(task.clientName)];
       return `
       <div class="client-card">
         <div class="head">
@@ -337,7 +343,7 @@ async function load() {
         </div>
         <div class="reasons">
           ${task.reasons.map(reasonHTML).join("")}
-          ${pickPreviewHTML(pickEntry)}
+          ${pickPreviewHTML(pickEntries)}
         </div>
       </div>
     `;
