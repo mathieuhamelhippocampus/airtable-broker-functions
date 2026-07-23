@@ -130,22 +130,25 @@ function convictionScore(p) {
 function pickTop3(clientZones, clientSecteurs) {
   const byScoreDesc = (a, b) => convictionScore(b) - convictionScore(a);
 
-  const exact = TOP_PICKS_POOL
-    .filter(p => zoneMatch(p.countries, clientZones) && secteurMatch(p.secteurs, clientSecteurs))
-    .sort(byScoreDesc);
-  const sectorOnly = TOP_PICKS_POOL
-    .filter(p => !exact.includes(p) && secteurMatch(p.secteurs, clientSecteurs))
+  // Geographic Universe est un prérequis strict à TOUS les paliers — un pick hors
+  // de la zone du client (et hors "Global") ne doit jamais être recommandé, même
+  // en repli sectoriel. Le tri par palier ne porte donc plus que sur la qualité
+  // du match secteur, à l'intérieur du sous-ensemble déjà éligible géographiquement.
+  const zoneEligible = TOP_PICKS_POOL.filter(p => zoneMatch(p.countries, clientZones));
+
+  const exact = zoneEligible
+    .filter(p => secteurMatch(p.secteurs, clientSecteurs))
     .sort(byScoreDesc);
 
-  if (exact.length === 0 && sectorOnly.length === 0) {
+  if (exact.length === 0) {
     return { top3: [], matched: false };
   }
 
-  const rest = TOP_PICKS_POOL
-    .filter(p => !exact.includes(p) && !sectorOnly.includes(p))
+  const rest = zoneEligible
+    .filter(p => !exact.includes(p))
     .sort(byScoreDesc);
 
-  const combined = [...exact, ...sectorOnly, ...rest];
+  const combined = [...exact, ...rest];
   const seen = new Set();
   const top3 = [];
   for (const p of combined) {

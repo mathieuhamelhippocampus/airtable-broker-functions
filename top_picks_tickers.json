@@ -103,5 +103,35 @@
     "id": "obic-business-consultants-4733jp",
     "name": "OBIC Business Consultants",
     "ticker": "4733 JP"
+  },
+  {
+    "id": "konami-9766jp",
+    "name": "Konami",
+    "ticker": "9766 JP"
+  },
+  {
+    "id": "sega-sammy-6460jp",
+    "name": "Sega Sammy",
+    "ticker": "6460 JP"
+  },
+  {
+    "id": "nexon-3659jp",
+    "name": "Nexon",
+    "ticker": "3659 JP"
+  },
+  {
+    "id": "wiwynn-6669tt",
+    "name": "Wiwynn Corp",
+    "ticker": "6669 TT"
+  },
+  {
+    "id": "disco-6146jp",
+    "name": "Disco",
+    "ticker": "6146 JP"
+  },
+  {
+    "id": "wistron-3231tt",
+    "name": "Wistron",
+    "ticker": "3231 TT"
   }
 ]
