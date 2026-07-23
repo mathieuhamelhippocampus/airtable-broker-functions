@@ -88,5 +88,20 @@
     "id": "uwc",
     "name": "UWC",
     "ticker": "UWC MK"
+  },
+  {
+    "id": "chow-tai-fook-1929hk",
+    "name": "Chow Tai Fook",
+    "ticker": "1929 HK"
+  },
+  {
+    "id": "hyundai-motor-005380ks",
+    "name": "Hyundai Motor Co.",
+    "ticker": "005380 KS"
+  },
+  {
+    "id": "obic-business-consultants-4733jp",
+    "name": "OBIC Business Consultants",
+    "ticker": "4733 JP"
   }
 ]
