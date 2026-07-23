@@ -8,6 +8,10 @@ const TABLE_CLIENTS = "Clients - Investment Universe";
 const SITE_URL = "https://airtable-broker-functions.netlify.app";
 const EMAIL_FIELD_CANDIDATES = ["Email", "Contact Email", "E-mail", "Email Address"];
 
+// Date de génération de la page (pas la date de note d'un pick individuel,
+// qui reste dans son propre champ `source` et ne doit jamais être touchée ici).
+const GENERATION_DATE = new Date().toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" });
+
 function toBloombergTicker(rawTicker) {
   const parts = rawTicker.split("/").map(p => p.trim());
   const hk = parts.find(p => p.endsWith("HK"));
@@ -210,7 +214,7 @@ function renderClientHTML(clientName, gerantName, top3) {
   return `<!DOCTYPE html>
 <html lang="en"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Top 3 for ${clientName} — 21 July 2026</title>
+<title>Top 3 for ${clientName} — ${GENERATION_DATE}</title>
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Figtree:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
 :root { --white:#fff; --off:#f7f6f3; --rule:#d8d4cc; --muted:#9a9488; --body:#2c2a26; --ink:#141210; --blue:#1a3a6b; --blue-light:#e8eef6; --green:#1a5c3a; --amber:#8b5a00; }
@@ -242,18 +246,18 @@ ul.pts li{font-size:12px;line-height:1.5;}
 .card-source{font-size:9.5px;color:var(--muted);}
 footer{background:var(--off);border-top:1px solid var(--rule);padding:16px 36px;font-size:10px;color:var(--muted);}
 </style></head><body>
-<div class="topbar"><span>Kepler Cheuvreux — Institutional Equity Sales</span><span>Top 3 Ideas — 21 July 2026</span></div>
-<header><h1>Top 3 for ${gerantName ? `${gerantName} (${clientName})` : clientName}</h1><div class="sub">Personalised from Macquarie Research notes published 21 July 2026, matched to your sector and geography mandate.</div></header>
+<div class="topbar"><span>Kepler Cheuvreux — Institutional Equity Sales</span><span>Top 3 Ideas — ${GENERATION_DATE}</span></div>
+<header><h1>Top 3 for ${gerantName ? `${gerantName} (${clientName})` : clientName}</h1><div class="sub">Personalised from Macquarie Research notes published as of ${GENERATION_DATE}, matched to your sector and geography mandate.</div></header>
 <div class="main">
 ${top3.map(cardHTML).join("")}
 </div>
-<footer>Kepler Cheuvreux — institutional use only. All ratings, targets and TSR figures sourced from Macquarie Research, 21 July 2026.</footer>
+<footer>Kepler Cheuvreux — institutional use only. All ratings, targets and TSR figures sourced from Macquarie Research notes, as compiled ${GENERATION_DATE}.</footer>
 </body></html>`;
 }
 
 function renderEML(clientName, contactName, email, top3, pageUrl) {
   const to = email || "TODO@fill-in-manually.com";
-  const subject = `Top 3 ideas for ${contactName ? `${contactName} (${clientName})` : clientName} — 21 July 2026`;
+  const subject = `Top 3 ideas for ${contactName ? `${contactName} (${clientName})` : clientName} — ${GENERATION_DATE}`;
   const greeting = contactName ? `Hi ${contactName.split(" ")[0]},` : "Hi,";
   const body = `${greeting}
 
@@ -273,7 +277,7 @@ Mathieu`;
 // Lien mailto public — pas d'adresse destinataire (rien de confidentiel), l'utilisateur
 // choisit/vérifie le destinataire dans son client mail avant envoi.
 function renderMailtoLink(clientName, top3, pageUrl) {
-  const subject = `Top 3 ideas for ${clientName} — 21 July 2026`;
+  const subject = `Top 3 ideas for ${clientName} — ${GENERATION_DATE}`;
   const body = `Hi,
 
 Based on this week's Macquarie research, here are three ideas matched to your coverage:

@@ -327,13 +327,15 @@ async function load() {
     document.getElementById("stat-total").textContent = data.totalClientsChecked;
     document.getElementById("summary").style.display = "flex";
 
-    if (data.tasks.length === 0) {
-      document.getElementById("content").innerHTML =
-        `<div class="empty">Aucun client à contacter aujourd'hui.</div>`;
-      return;
-    }
+    const matchedHouseKeys = new Set(data.tasks.map(task => normalizeName(task.clientName)));
 
-    const html = data.tasks.map(task => {
+    // Maisons ayant un Top 3 personnalisé (manifest.json) mais aucune raison d'appel
+    // aujourd'hui (pas d'event matché, pas de retard) — hasCallEligibility: false.
+    // Leur Top 3 existe bien mais n'était plus affiché du tout depuis la fusion des
+    // cartes du 21/07, faute de figurer dans data.tasks.
+    const orphanHouseKeys = Object.keys(picksByHouse).filter(key => !matchedHouseKeys.has(key));
+
+    const tasksHtml = data.tasks.length === 0 ? "" : data.tasks.map(task => {
       const pickEntries = picksByHouse[normalizeName(task.clientName)];
       return `
       <div class="client-card">
@@ -349,7 +351,29 @@ async function load() {
     `;
     }).join("");
 
-    document.getElementById("content").innerHTML = html;
+    const emptyHtml = data.tasks.length === 0
+      ? `<div class="empty">Aucun client à contacter aujourd'hui.</div>`
+      : "";
+
+    const orphanHtml = orphanHouseKeys.length === 0 ? "" : `
+      <h2 style="font-family:'EB Garamond', serif; font-size:20px; color:var(--navy); margin:32px 0 14px;">Top 3 personnalisé — pas d'appel dû aujourd'hui</h2>
+      ${orphanHouseKeys.map(key => {
+        const pickEntries = picksByHouse[key];
+        const clientName = pickEntries[0].clientName;
+        return `
+      <div class="client-card">
+        <div class="head">
+          <div class="name">${clientName}</div>
+          <div class="count">Top 3 seul — hors quota d'appel</div>
+        </div>
+        <div class="reasons">
+          ${pickPreviewHTML(pickEntries)}
+        </div>
+      </div>
+    `;
+      }).join("")}`;
+
+    document.getElementById("content").innerHTML = tasksHtml + emptyHtml + orphanHtml;
   } catch (err) {
     document.getElementById("content").innerHTML =
       `<div class="error-box">Erreur réseau : ${err.message}</div>`;
